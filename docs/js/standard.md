@@ -1,5 +1,12 @@
 # JavaScript Standard Style
 
+> 这是 JavaScript standard 代码规范的全文.  
+> 掌握本规范的最好方法是安装并在自己的代码中使用它.
+
+[原文地址](https://standardjs.com/rules-zhcn.html)
+
+## 细则
+
 -   使用两个空格进行缩进  
     eslint: indent
 
@@ -344,4 +351,285 @@
     }
     ```
 
--   不要省去小数点前面的 `0`
+-   不要省去小数点前面的 `0`  
+    eslint: no-floating-decimal
+
+    ```javascript
+    const discount = 0.5
+    ```
+
+-   避免对声明过的函数重新赋值  
+    eslint: no-func-assign
+
+-   不要对全局只读对象重新赋值  
+    eslint: no-global-assign
+
+-   注意隐式的 `eval()`  
+    eslint: no-implied-eval
+
+    ```javascript
+    setTimeout(function() {
+        alert('hello world')
+    })
+    ```
+
+-   嵌套的代码块中禁止再定义函数  
+    eslint: no-inner-declarations
+
+-   不要向 `RegExp` 构造器传入非法的正则表达式  
+    eslint: no-invalid-regexp
+
+-   不要使用非法的空白符  
+    eslint: no-irregular-whitespace
+
+-   禁止使用 `__iterator__`  
+    eslint: no-iterator
+
+-   外部变量不要与对象属性重名  
+    eslint: no-label-var
+
+-   不要使用标签语句  
+    eslint: no-labels
+
+-   不要书写不必要的嵌套代码块  
+    eslint: no-lone-blocks
+
+-   不要混合使用空格与制表符作为缩进  
+    eslint: no-mixed-spaces-and-tabs
+
+-   除了缩进, 不要使用多个空格  
+    eslint: no-multi-spaces
+
+-   不要使用多行字符串  
+    eslint: no-multi-str
+
+-   `new` 创建对象实例后需要赋值给变量  
+    eslint: no-new
+
+-   禁止使用 `Function` 构造器  
+    eslint: no-new-func
+
+-   禁止使用 `Object` 构造器  
+    eslint: no-new-object
+
+-   禁止使用 `new require`  
+    eslint: no-new-require
+
+-   禁止使用 `Symbol` 构造器  
+    eslint: no-new-symbol
+
+-   禁止使用原始包装器  
+    eslint: no-new-wrappers
+
+-   不要将全局对象的属性作为函数调用  
+    eslint: no-obj-calls
+
+-   不要使用八进制字面量  
+    eslint: no-octal
+
+-   字符串字面量中也不要使用八进制转义字符  
+    eslint: no-octal-escape
+
+-   使用 `__dirname` 和 `__filename` 时尽量避免使用字符串拼接  
+    eslint: no-path-concat
+
+    ```javascript
+    const pathToFile = path.join(__dirname, 'app.js')
+    ```
+
+-   使用 `getPrototypeOf` 来替代 `__proto__`  
+    eslint: no-proto
+
+    ```javascript
+    const foo = Object.getPrototypeOf(obj)
+    ```
+
+-   不要重复声明变量  
+    eslint: no-redeclare
+
+-   正则中避免使用多个空格  
+    eslint: no-regex-spaces
+
+-   `return` 语句中的赋值必需有括号包裹  
+    eslint: no-return-assign
+
+    ```javascript
+    function sum(a, b) {
+        return (result = a + b)
+    }
+    ```
+
+-   避免将变量赋值给自己  
+    eslint: no-self-assign
+
+-   避免将变量与自己进行比较操作  
+    eslint: no-self-compare
+
+-   避免使用逗号操作符  
+    eslint: no-sequences
+
+-   不要随意更改关键字的值  
+    eslint: no-shadow-restructed-names
+
+-   禁止使用稀疏数组  
+    eslint: no-sparse-arrays
+
+-   不要使用制表符  
+    eslint: no-tabs
+
+-   正确使用 es6 中的字符串模板  
+    eslint: no-template-curly-in-string
+
+    ```javascript
+    const message = `Hello ${name}`
+    ```
+
+-   使用 `this` 前确保 `super()` 已调用  
+    eslint: no-this-before-super
+
+    ```javascript
+    class Dog extends Animal {
+        constructor() {
+            super()
+            this.legs = 4
+        }
+    }
+    ```
+
+-   用 `throw` 抛错时, 抛出 `Error` 对象而不是字符串  
+    eslint: no-throw-literal
+
+    ```javascript
+    throw new Error('error')
+    ```
+
+-   行末不留空格  
+    eslint: no-trailing-spaces
+
+-   不要使用 `undefined` 来初始化变量  
+    eslint: no-undef-init
+
+-   循环语句中注意更新循环变量  
+    eslint: no-unmodified-loop-condition
+
+-   如果有更好的实现, 尽量不要使用三元表达式  
+    eslint: no-unneeded-ternary
+
+-   `return` , `throw` , `continue` 和 `break` 后不要再跟代码  
+    eslint: no-unreachable
+
+-   `finally` 代码块中不要再改变程序执行流程  
+    eslint: no-unsafe-finally
+
+-   关系运算符的左值不要做取反操作  
+    eslint: no-unsafe-negation
+
+-   避免不必要的 `.call()` 和 `.apply()`  
+    eslint: no-useless-call
+
+-   避免使用不必要的计算值作对象属性  
+    eslint: no-useless-computed-key
+
+-   禁止多余的构造器  
+    eslint: no-useless-constructor
+
+-   禁止不必要的转义  
+    eslint: no-useless-escape
+
+-   `import` , `export` 和解构操作中, 禁止赋值到同名变量  
+    eslint: no-useless-rename
+
+-   属性前面不要加空格  
+    eslint: no-whitespace-before-property
+
+-   禁止使用 `with`  
+    eslint: no-with
+
+-   对象属性换行时注意统一代码风格  
+    eslint: object-property-newline
+
+-   代码块中避免多余留白  
+    eslint: padded-blocks
+
+-   展开运算符与它的表达式间不要留空白  
+    eslint: rest-spread-spacing
+
+-   展开运算符与它的表达式间不要留空白  
+    eslint: rest-spread-spacing
+
+    ```javascript
+    fn(...args)
+    ```
+
+-   遇到分号时空格要后留前不留  
+    eslint: semi-spacing
+
+    ```javascript
+    for(let i = 0; i < items.length; i ++) {  ...}
+    ```
+
+-   代码块首尾留空格  
+    eslint: space-before-blocks
+
+    ```javascript
+    if (admin) { ... }
+    ```
+
+-   圆括号间不留空格  
+    eslint: space-in-parens
+
+-   一元运算符后面跟一个空格  
+    eslint: space-unary-ops
+
+-   注释首尾留空格  
+    eslint: spaced-comment
+
+    ```javascript
+    // comment
+    /* comment */
+    ```
+
+-   模板字符串中变量前后不加空格  
+    eslint: template-curly-spacing
+
+-   检查 `NaN` 的正确姿势是使用 `isNaN()`  
+    eslint: use-isnan
+
+    ```javascript
+    if (isNaN(price)) { ... }
+    ```
+
+-   用合法的字符串跟 `typeof` 进行比较操作  
+    eslint: valid-typeof
+
+-   自调用匿名函数(IIFEs)使用括号包裹  
+    eslint: wrap-iife
+
+    ```javascript
+    const getName = (function() {})()
+    ```
+
+-   `yield *` 中的 `*` 前后都要有空格  
+    eslint: yield-star-spacing
+
+    ```javascript
+    yield * increment()
+    ```
+
+-   请书写优雅的条件语句(avoid Yoda conditions)  
+    eslint: yoda
+    ```javascript
+    if (age === 15) {
+    }
+    ```
+
+## 关于分号
+
+-   不要使用分号  
+    eslint: semi
+
+    ```javascript
+    window.alert('hi')
+    ```
+
+-   不要使用 `(`, `[`, `\`` 等作为一行的开始
