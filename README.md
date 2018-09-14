@@ -12,8 +12,9 @@
 -   [数据结构](/docs/structure/index.md)
 -   [算法](/docs/algorithm/index.md)
 -   [设计模式](/docs/pattern/index.md)
--   css 学习
+-   [css 学习](/docs/css/index.md)
 -   工具
+-   [HTTP](/docs/http/index.md)
 
 ## 编辑器/IDE
 
