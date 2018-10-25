@@ -94,6 +94,7 @@
 
 -   数据库
 -   操作系统
+    -   [MySQL](/docs/mysql/index.md)
 -   Nginx
 
 ## 开发环境
