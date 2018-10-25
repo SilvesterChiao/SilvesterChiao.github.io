@@ -1,5 +1,7 @@
 # MySQL
 
+慕课网 mysql 教程 笔记
+
 ## 基础
 
 MySQL 最早由瑞典 MySQL AB 公司开发, 被 Oracle 公司收购  

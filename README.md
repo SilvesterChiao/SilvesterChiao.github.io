@@ -18,7 +18,7 @@
 
 ## 编辑器/IDE
 
--   Vim/gVim
+-   [Vim/gVim](/docs/vim/index.md)
 -   Sublime Text
 -   Atom
 -   Visual Studio Code
@@ -93,13 +93,13 @@
 ## 额外需求
 
 -   数据库
--   操作系统
     -   [MySQL](/docs/mysql/index.md)
--   Nginx
+-   操作系统
+-   [Nginx](docs/nginx/index.md)
 
 ## 开发环境
 
--   Git
+-   [Git](docs/git/index.md)
 -   MongoDB
 -   Nodejs
 -   Ruby
