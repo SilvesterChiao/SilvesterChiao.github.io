@@ -4,6 +4,7 @@
 
 ## 基础
 
+-   [面试题](/docs/audition.md)
 -   HTML(5)
 -   CSS(3)
 -   JavaScript(ECMAScript)
@@ -140,5 +141,25 @@
 -   vue-cli
 -   webpack
 -   yo
+
+## 常用网址
+
+-   [码云](https://gitee.com/)
+-   [jsfiddle](https://jsfiddle.net/user/dashboard/fiddles/)
+-   [codepen](https://codepen.io/)
+-   [coding](https://coding.net/)
+-   [leetcode](https://leetcode-cn.com/)
+-   [牛客](https://www.nowcoder.com/)
+-   [stackoverflow](https://stackoverflow.com/)
+-   [简书](https://www.jianshu.com/)
+-   [掘金](https://juejin.im/)
+-   [知乎](https://www.zhihu.com/)
+-   [阮一峰](http://www.ruanyifeng.com/blog/)
+-   [廖雪峰](https://liaoxuefeng.com/)
+-   [菜鸟教程](http://www.runoob.com/)
+-   [W3CSchool](http://www.w3school.com.cn/)
+-   [慕课网](https://www.imooc.com/)
+-   [网易云课堂](https://study.163.com/)
+-   [MDN](https://developer.mozilla.org/zh-CN/)
 
 ![cool-background](/images/cool-background.png)
