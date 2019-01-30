@@ -36,3 +36,4 @@ git merge [--no-ff -m "commit描述"] dev dev
 分支(branch)
 HEAD->master(当前分支)  
 创建->切换->工作->->切换->合并->删除
+分支策略: master -- dev -- dev-sil
