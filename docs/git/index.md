@@ -22,8 +22,20 @@ git remote add origin git@github.com:UserName/RepositoryName.git
 git push -u origin master
 git clone git@github.com:UserName/RepositoryName.git
 git checkout [-b] dev
-git branch [-d] [dev]
+git branch [-d] [-D] [dev]
 git merge [--no-ff -m "commit描述"] dev dev
+git stash [list|apply|drop|pop]
+git checkout -b feature-vulcan
+git remote [-v]
+git checkout -b dev origin/dev
+git branch --set-upstream-to=origin/dev dev
+git rebase
+git tag [-a] [-d] [v1.0] [-m "标签备注"] [commit id]
+git show <tagname>
+git push origin <tagname>
+git push origin --tags
+git push origin :refs/tags/<tagname>
+git config --global color.ui true
 ```
 
 版本库/仓库(repository)  
@@ -39,3 +51,8 @@ HEAD->master(当前分支)
 分支策略
 开发分支: master -- dev -- dev-sil  
 Bug 分支: master -- issue101
+暂存/恢复工作区  
+Feature 分支: 从 dev 创建 feature 分支, 开发试验功能, 完成则合并到 dev 分支, 取消则强制删除  
+多人协作:  
+远程库:  
+配置:
