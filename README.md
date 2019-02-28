@@ -6,25 +6,21 @@
 
 -   [面试题](/docs/audition.md)
 -   HTML(5)
--   CSS(3)
+-   [CSS(3)](/docs/css/index.md)
 -   JavaScript(ECMAScript)
-    -   [es6 学习笔记](/docs/js/es6/index.md)
     -   [js 学习笔记](/docs/js/es5/index.md)
--   [数据结构](/docs/structure/index.md)
--   [算法](/docs/algorithm/index.md)
--   [设计模式](/docs/pattern/index.md)
--   [css 学习](/docs/css/index.md)
--   工具
--   [HTTP](/docs/http/index.md)
+    -   [es6 学习笔记](/docs/js/es6/index.md)
+    -   [standard.js](/docs/js/standard.md)
 
 ## 编辑器/IDE
 
--   [Vim/gVim](/docs/vim/index.md)
+-   [Emmet](/docs/editor/emmet.md)
+-   [Vim/gVim](/docs/editor/vim.md)
 -   Sublime Text
 -   Atom
--   Visual Studio Code
--   HBuilder
+-   [Visual Studio Code](/docs/editor/vscode.md)
 -   Webstorm
+-   HBuilder
 
 ## MVC/MVVM/MV\*
 
@@ -34,37 +30,37 @@
 
 ## UI
 
+-   FontAwesome
 -   Bootstrap
--   MUI
 -   ElementUI
 -   MintUI
--   FontAwesome
+-   MUI
 
 ## Tool
 
 -   [NPM](https://www.npmjs.com/)
--   Bower
--   Grunt/Gulp/NPM Script
+-   [Bower](/docs/tools/bower.md)
 -   Yeoman
--   Webpack
--   Babel
--   Eslint
--   Uglify
 -   Editorconfig
+-   [ESLint](/docs/tools/eslint.md)
+-   Uglify
+-   Wiredep
+-   [Babel](/docs/tools/babel.md)
+-   [Grunt](/docs/tools/grunt.md) / [Gulp](/docs/tools/gulp.md) / NPM Script
+-   [Webpack](/docs/tools/webpack.md)
 -   Mock.js
+-   json-server
 -   PostCSS
 -   Mocha
--   Wiredep
 -   Browser-sync
 -   APIdoc
--   json-server
 
 ## Template
 
 -   Mustache.js
 -   Handlebars.js
--   EJS
 -   Pug/Jade
+-   EJS
 
 ## 通用
 
@@ -72,7 +68,7 @@
 -   Git
 -   jQuery
 -   Sass/Less
--   Node
+-   Nodejs
 -   Express
 -   MD5
 -   Tmux
@@ -80,35 +76,36 @@
 
 ## 概念
 
+-   [HTTP](/docs/http/index.md)
 -   [设计模式](/docs/pattern/index.md)
 -   [算法](/docs/algorithm/index.md)
 -   [数据结构](/docs/structure/index.md)
--   模块化
--   函数式
--   工程化
--   响应式
 -   [面相对象](/docs/oo/index.md)
+-   函数式
 -   柯里化
+-   响应式
+-   模块化
+-   工程化
 -   MVC
 
 ## 额外需求
 
+-   操作系统
 -   数据库
     -   [MySQL](/docs/mysql/index.md)
--   操作系统
 -   [Nginx](docs/nginx/index.md)
 
 ## 开发环境
 
 -   [Git](docs/git/index.md)
--   MongoDB
 -   Nodejs
 -   Ruby
--   PS
+-   MongoDB
+-   VMware
 -   IETester
 -   微信开发者工具
+-   PS
 -   FScapture
--   VMware
 -   ColorCube
 
 ## 常用软件

@@ -55,4 +55,7 @@ Bug 分支: master -- issue101
 Feature 分支: 从 dev 创建 feature 分支, 开发试验功能, 完成则合并到 dev 分支, 取消则强制删除  
 多人协作:  
 远程库:  
-配置:
+配置: .gitconfig  
+.gitignore 文件  
+配置别名  
+搭建服务器

@@ -2,10 +2,15 @@
 
 ## 目录
 
--   [前端基础](#basic-knowledge)
+-   [前端基础](#basic)
 -   [Vue](#vue)
+-   [工具](#tools)
+-   [工程思想](#engineering)
+-   [理论知识](#theory)
+-   [项目经验](#experience)
+-   [主观](#subjective)
 
-<h2 id="basic-knowledge">前端基础</h2>
+<h2 id="basic">前端基础</h2>
 
 -   浏览器渲染, 重绘, 回流
 
@@ -46,15 +51,15 @@
 -   单页应用, vue-router
 -   vuex(action, state, view)
 
-## 工具
+<h2 id="tools">工具</h2>
 
-## 工程思想
+<h2 id="engineering">工程思想</h2>
 
 ### Webpack
 
 ### Gulp
 
-## 理论概念
+<h2 id="theory">理论知识</h2>
 
 ### 算法
 
@@ -90,9 +95,9 @@
 -   cookie, session
 -   OSI
 
-## 项目经验
+<h2 id="experience">项目经验</h2>
 
-## 主观
+<h2 id="subjective">主观</h2>
 
 -   你做了什么, 最困难的地方, 学到了什么
 -   你的优势是什么
