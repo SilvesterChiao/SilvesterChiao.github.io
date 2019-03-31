@@ -49,6 +49,9 @@ pert=3306
 ```bash
 net stop mysql
 net start mysql
+/etc/init.d/mysql start
+/etc/init.d/mysql restart
+/etc/init.d/mysql stop
 ```
 
 2. 登录/退出
@@ -90,6 +93,10 @@ PROMPT \u@\h \d>
 SELECT VERSION();
 SELECT NOW();
 SELECT USER();
+SHOW databases;
+USE datanasename;
+SHOW tables;
+DESC tablename;
 ```
 
 5. 语法规范
@@ -97,3 +104,16 @@ SELECT USER();
 关键字, 函数名称全部大写  
 数据库名称, 表名称, 字段名称全部小写  
 SQL 语句必须以分号结尾
+
+## 常见问题
+
+1.忘记密码如何处理
+
+skip-grant-tables
+
+```base
+sudo chmod 777 mysqld.cnf
+sudo chmod 644 mysqld.cnf
+flush privileges
+/etc/init.d/mysql restart
+```
