@@ -12,26 +12,26 @@ npm install --save-dev webpack webpack-cli
 
 > webpack.config.js
 
--   entry
--   output
-    -   path
-    -   filename
--   module
-    -   rules
--   plugin
--   devtool
--   devServer
-    -   contentBase
-    -   port
-    -   historyApiFallback
-    -   inline
--   resolve
-    -   extensions
-    -   alias
--   externals
--   node
+- entry
+- output
+  - path
+  - filename
+- module
+  - rules
+- plugin
+- devtool
+- devServer
+  - contentBase
+  - port
+  - historyApiFallback
+  - inline
+- resolve
+  - extensions
+  - alias
+- externals
+- node
 
 ## 插件
 
--   webpack-dev-server
--   http
+- webpack-dev-server
+- http

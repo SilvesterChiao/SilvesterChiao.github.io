@@ -2,8 +2,8 @@
 
 ## 安装
 
--   babel-cli
--   babel-core
+- babel-cli
+- babel-core
 
 ## 预设
 
@@ -19,9 +19,9 @@ babel src --out-dir lib
 
 > .babelrc
 
--   presets
--   env
--   plugins
--   ignore
--   only
--   minified
+- presets
+- env
+- plugins
+- ignore
+- only
+- minified

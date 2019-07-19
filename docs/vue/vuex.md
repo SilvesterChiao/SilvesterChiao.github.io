@@ -1,5 +1,7 @@
 # vuex
 
+[[toc]]
+
 ## 文档
 
 [Vuex 中文文档](https://vuex.vuejs.org/zh/)

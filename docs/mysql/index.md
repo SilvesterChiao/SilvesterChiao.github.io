@@ -67,14 +67,14 @@ quit
 
 参数:
 
--   -D(--database=name): 打开指定数据库
--   --delimiter=name: 指定分隔符
--   -h(--host=name)服务器名称
--   -p(--password[=name]): 密码
--   -P(--port=#): 端口号
--   --prompt: 提示符
--   -u(--user=name): 用户名
--   -V(--version): 版本信息
+- -D(--database=name): 打开指定数据库
+- --delimiter=name: 指定分隔符
+- -h(--host=name)服务器名称
+- -p(--password[=name]): 密码
+- -P(--port=#): 端口号
+- --prompt: 提示符
+- -u(--user=name): 用户名
+- -V(--version): 版本信息
 
 3. 修改提示符
 
@@ -82,10 +82,10 @@ quit
 PROMPT \u@\h \d>
 ```
 
--   \h: 服务器名称
--   \D: 完整的日期
--   \d: 当前的数据库
--   \u: 当前用户名
+- \h: 服务器名称
+- \D: 完整的日期
+- \d: 当前的数据库
+- \u: 当前用户名
 
 4. 常用命令
 

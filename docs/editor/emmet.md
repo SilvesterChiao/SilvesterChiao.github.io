@@ -10,7 +10,7 @@
 ### 后代: >
 
 ```javascript
-nav > ul > li
+nav > ul > li;
 ```
 
 ### 兄弟: +
