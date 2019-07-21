@@ -3,7 +3,7 @@ module.exports = {
   description: 'Just playing around',
   markdown: {
     toc: {
-      includeLevel: [1, 2, 3],
+      includeLevel: [2, 3],
     },
   },
   themeConfig: {
