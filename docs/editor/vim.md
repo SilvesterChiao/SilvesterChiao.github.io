@@ -45,3 +45,9 @@
 \_vimrc
 
 ### 插件
+
+### 参考链接
+
+1. [Ubuntu18.04 下 VIM 安装及配置](https://blog.csdn.net/qq_42138566/article/details/82800451)
+1. [Vim 配置文件（.vimrc），Vim 配置教程](http://c.biancheng.net/view/3024.html)
+1. [【进击的 Vimmer】vim 配置与 vimrc 文件详解](https://www.jianshu.com/p/d01b7b378266)
