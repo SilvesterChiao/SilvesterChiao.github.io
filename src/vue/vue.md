@@ -4,9 +4,9 @@
 
 [文档地址](https://cn.vuejs.org/)
 
-<img src="../../images/vue.png" width="200" height="200" alt="vue" align=center />
+<img src="../../assets/images/vue.png" width="200" height="200" alt="vue" align=center />
 
-- [模板语法](/docs/vue/syntax.md)
+- [模板语法](/src/vue/syntax.md)
 - [计算属性和侦听器]()
 - [Class 与 Style 绑定]()
 - [条件渲染]()

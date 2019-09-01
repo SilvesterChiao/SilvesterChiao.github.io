@@ -59,12 +59,12 @@ npx eslint eslint yourfile.js
 ```
 
 输出结果如下图（vscode 终端）：
-![eslint输出](../../images/eslint-cli.png)
+![eslint输出](../../assets/images/eslint-cli.png)
 3 个 error，0 个 warning，退出码为 1
 
 > 关于退出码：0，无错误；1，有错误；2，eslint 执行出错，npm bug 或者配置文件不对
 
-实际开发中较少使用 ESLint CLI，更多的使用配置文件搭配 VSCode，[详见](./docs/tools/eslint-vscode.md)。
+实际开发中较少使用 ESLint CLI，更多的使用配置文件搭配 VSCode，[详见](./src/tools/eslint-vscode.md)。
 
 [back to top](#eslint)
 
@@ -88,7 +88,7 @@ npx eslint eslint yourfile.js
 - “warning”或 1： 警告（不影响退出码）
 - “error”或 2：错误（退出码为 1）
 
-加入下面一行配置表示默认开启[规则](https://cn.eslint.org/docs/rules/)中所有标记![OK](../../images/recommended.png)的规则，也可以在[npm](https://www.npmjs.com/search?q=eslint-config)搜索*eslint-config*使用别人创建好的配置
+加入下面一行配置表示默认开启[规则](https://cn.eslint.org/docs/rules/)中所有标记![OK](../../assets/images/recommended.png)的规则，也可以在[npm](https://www.npmjs.com/search?q=eslint-config)搜索*eslint-config*使用别人创建好的配置
 
 ```json
 "extends": "eslint:recommended"
@@ -98,7 +98,7 @@ npx eslint eslint yourfile.js
 
 <h2 id="rules">规则</h2>
 
-[规则](/docs/tools/eslint-basic.md)
+[规则](/src/tools/eslint-basic.md)
 
 如何禁用：  
 在代码中使用如下格式的注释
@@ -114,7 +114,7 @@ npx eslint eslint yourfile.js
 
 预设是规则的集合，所有规则都是基本规则中的
 
-- [airbnb](/docs/tools/eslint-preset-airbnb.md)
+- [airbnb](/src/tools/eslint-preset-airbnb.md)
 
 [back to top](#eslint)
 
@@ -122,9 +122,9 @@ npx eslint eslint yourfile.js
 
 插件是扩展规则的集合
 
-- [eslint-plugin-react](/docs/tools/eslint-plugin-react.md)
-- [eslint-plugin-jsx-a11y](/docs/tools/eslint-plugin-jsx-a11y.md)
-- [eslint-plugin-import](/docs/tools/eslint-plugin-import.md)
+- [eslint-plugin-react](/src/tools/eslint-plugin-react.md)
+- [eslint-plugin-jsx-a11y](/src/tools/eslint-plugin-jsx-a11y.md)
+- [eslint-plugin-import](/src/tools/eslint-plugin-import.md)
 
 [back to top](#eslint)
 

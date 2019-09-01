@@ -4,21 +4,21 @@
 
 ## 基础
 
-- [面试题](/docs/audition.md)
+- [面试题](/src/audition.md)
 - HTML(5)
-- [CSS(3)](/docs/css/index.md)
+- [CSS(3)](/src/css/index.md)
 - JavaScript(ECMAScript)
-  - [js 学习笔记](/docs/js/es5/index.md)
-  - [es6 学习笔记](/docs/js/es6/index.md)
-  - [standard.js](/docs/js/standard.md)
+  - [js 学习笔记](/src/js/es5/index.md)
+  - [es6 学习笔记](/src/js/es6/index.md)
+  - [standard.js](/src/js/standard.md)
 
 ## 编辑器/IDE
 
-- [Emmet](/docs/editor/emmet.md)
-- [Vim/gVim](/docs/editor/vim.md)
+- [Emmet](/src/editor/emmet.md)
+- [Vim/gVim](/src/editor/vim.md)
 - Sublime Text
 - Atom
-- [Visual Studio Code](/docs/editor/vscode.md)
+- [Visual Studio Code](/src/editor/vscode.md)
 - Webstorm
 - HBuilder
 
@@ -26,7 +26,7 @@
 
 - Angular
 - React
-- [Vue](/docs/vue/index.md)
+- [Vue](/src/vue/index.md)
 
 ## UI
 
@@ -39,15 +39,15 @@
 ## Tool
 
 - [NPM](https://www.npmjs.com/)
-- [Bower](/docs/tools/bower.md)
+- [Bower](/src/tools/bower.md)
 - Yeoman
 - Editorconfig
-- [ESLint](/docs/tools/eslint.md)
+- [ESLint](/src/tools/eslint.md)
 - Uglify
 - Wiredep
-- [Babel](/docs/tools/babel.md)
-- [Grunt](/docs/tools/grunt.md) / [Gulp](/docs/tools/gulp.md) / NPM Script
-- [Webpack](/docs/tools/webpack.md)
+- [Babel](/src/tools/babel.md)
+- [Grunt](/src/tools/grunt.md) / [Gulp](/src/tools/gulp.md) / NPM Script
+- [Webpack](/src/tools/webpack.md)
 - Mock.js
 - json-server
 - PostCSS
@@ -76,11 +76,11 @@
 
 ## 概念
 
-- [HTTP](/docs/http/index.md)
-- [设计模式](/docs/pattern/index.md)
-- [算法](/docs/algorithm/index.md)
-- [数据结构](/docs/structure/index.md)
-- [面相对象](/docs/oo/index.md)
+- [HTTP](/src/http/index.md)
+- [设计模式](/src/pattern/index.md)
+- [算法](/src/algorithm/index.md)
+- [数据结构](/src/structure/index.md)
+- [面相对象](/src/oo/index.md)
 - 函数式
 - 柯里化
 - 响应式
@@ -91,14 +91,14 @@
 ## 额外需求
 
 - 操作系统
-  - [Linux](/docs/linux/linux.md)
+  - [Linux](/src/linux/linux.md)
 - 数据库
-  - [MySQL](/docs/mysql/index.md)
-- [Nginx](docs/nginx/index.md)
+  - [MySQL](/src/mysql/index.md)
+- [Nginx](src/nginx/index.md)
 
 ## 开发环境
 
-- [Git](docs/git/index.md)
+- [Git](src/git/index.md)
 - Nodejs
 - Ruby
 - MongoDB
@@ -160,4 +160,4 @@
 - [网易云课堂](https://study.163.com/)
 - [MDN](https://developer.mozilla.org/zh-CN/)
 
-![cool-background](/images/cool-background.png)
+![cool-background](/assets/images/cool-background.png)

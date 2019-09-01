@@ -38,7 +38,7 @@
   - q 退出
   - w 保存
 
-![vim模式图解](/images/vim-vi-workmodel.png)
+![vim模式图解](/assets/images/vim-vi-workmodel.png)
 
 ### 配置
 

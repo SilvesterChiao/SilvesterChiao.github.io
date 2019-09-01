@@ -67,7 +67,7 @@
 ### 算法
 
 - 时间复杂度, 空间复杂度
-- [排序算法(冒泡, 希尔, 快排)](/docs/algorithm/index.md#sort)
+- [排序算法(冒泡, 希尔, 快排)](/src/algorithm/index.md#sort)
 
 ### 数据结构
 
