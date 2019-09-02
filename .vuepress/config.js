@@ -1,7 +1,14 @@
 module.exports = {
+  base: '/ouroboros/',
   title: 'Hello VuePress',
   description: 'Just playing around',
   dest: 'docs',
+  head: [
+    [
+      'link',
+      { rel: 'shortcut icon', type: 'image/x-icon', href: `./favicon.ico` },
+    ],
+  ],
   markdown: {
     toc: {
       includeLevel: [2, 3],
