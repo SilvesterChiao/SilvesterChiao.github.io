@@ -160,4 +160,4 @@
 - [网易云课堂](https://study.163.com/)
 - [MDN](https://developer.mozilla.org/zh-CN/)
 
-![cool-background](/assets/images/cool-background.png)
+![cool-background](./assets/images/cool-background.png)

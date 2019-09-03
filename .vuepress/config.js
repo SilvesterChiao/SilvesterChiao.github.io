@@ -21,4 +21,11 @@ module.exports = {
       { text: 'External', link: 'https://google.com' },
     ],
   },
+  configureWebpack: {
+    resolve: {
+      alias: {
+        '@alias': 'assets/images',
+      },
+    },
+  },
 };
