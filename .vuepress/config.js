@@ -10,6 +10,7 @@ module.exports = {
     ],
   ],
   markdown: {
+    lineNumbers: true,
     toc: {
       includeLevel: [2, 3],
     },
@@ -21,6 +22,7 @@ module.exports = {
       { text: 'Guide', link: '/guide/' },
       { text: 'External', link: 'https://google.com' },
     ],
+    sidebar: ['/', '/src/markdown', ['/src/audition', '面试']],
   },
   configureWebpack: {
     resolve: {

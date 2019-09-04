@@ -1,4 +1,10 @@
+---
+sidebar: auto
+---
+
 # 使用 vuepress 搭建个人博客
+
+[[toc]]
 
 ## 简介
 
@@ -31,6 +37,44 @@ vuepress build .
 默认生成 dist 文件夹,建议配置成 docs,连同 src 整个 push 到 github,在 github 本项目 Settings 中设置 gitpages,选择 source 为 master branch/docs folder,然后即可通过 https://用户名.github.io/仓库名/ 访问博客
 
 别忘了在配置文件中加上 base: '/项目名/',不然你看到的会是 404
+
+## markdown 扩展
+
+### emoji
+
+快用 emoji 让你的文章更生动吧 :yum:
+
+[vuepress 支持的 emoji 列表](https://www.webfx.com/tools/emoji-cheat-sheet/)
+
+### 目录
+
+在文章开头使用 `[[toc]]` 即可，vuepress 会自动检测 markdown 文件中的标题，可通过配置 markdown.toc 自定义标题级别
+
+### 自定义容器
+
+我看就是 success，error 这种的输出信息，支持 `tip`，`warning`，`danger`三种
+
+::: tip
+提示块
+:::
+
+::: danger 还可以指定标题
+这里是带标题的警告块
+:::
+
+### 代码块中的行高亮
+
+可以在代码块中指定高亮的行
+
+```js{2,5}
+export default {
+  data() {
+    return {
+      msg: 'Highlighted!',
+    };
+  },
+};
+```
 
 ## 配置
 
