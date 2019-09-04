@@ -1,7 +1,7 @@
 module.exports = {
   base: '/ouroboros/',
-  title: 'Hello VuePress',
-  description: 'Just playing around',
+  title: '西尔的杂货店',
+  description: '跋涉千里向你道别，在最初和最后当雪夜。',
   dest: 'docs',
   head: [
     [
@@ -15,6 +15,7 @@ module.exports = {
     },
   },
   themeConfig: {
+    lastUpdated: '上次更新',
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Guide', link: '/guide/' },

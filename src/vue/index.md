@@ -4,6 +4,7 @@
 - [vue-router(前端单页面路由)](/src/vue/router.md)
 - [vuex(vue 组件状态管理器)](/src/vue/vuex.md)
 - [axios(ajax 库)](/src/vue/axios.md)
+- [文档生成器-vuepress](/src/vue/vuepress.md)
 
 ## 参考链接
 

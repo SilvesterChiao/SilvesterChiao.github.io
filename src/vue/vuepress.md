@@ -2,6 +2,10 @@
 
 ## 简介
 
+Vue 驱动的静态网站生成器
+
+<img alt="vuepress" src="../../assets/images/vuepress.png" width="280px" height="280px" />
+
 ## 快速起步
 
 - 安装 vuepress
