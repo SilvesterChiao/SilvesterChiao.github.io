@@ -4,8 +4,6 @@ sidebar: auto
 
 # 使用 vuepress 搭建个人博客
 
-[[toc]]
-
 ## 简介
 
 Vue 驱动的静态网站生成器
@@ -14,7 +12,7 @@ Vue 驱动的静态网站生成器
 
 ## 快速起步
 
-- 安装 vuepress
+- 全局安装 vuepress
 
 ```bash
 npm install -g vuepress
@@ -36,7 +34,11 @@ vuepress build .
 
 默认生成 dist 文件夹,建议配置成 docs,连同 src 整个 push 到 github,在 github 本项目 Settings 中设置 gitpages,选择 source 为 master branch/docs folder,然后即可通过 https://用户名.github.io/仓库名/ 访问博客
 
-别忘了在配置文件中加上 base: '/项目名/',不然你看到的会是 404
+别忘了在配置文件中加上 base: '/项目名/',不然你看到的会是 404(gitpages有两种,一种是用户名.github.io项目，一种是普通项目，普通项目需要将base配置为'/项目名/',用户名项目使用默认当'/'即可)
+
+## 图片（静态资源）
+
+使用相对路径引用的图片会被打包到dist/assets/img文件夹下(图片过小直接编译成base64插入文档中)
 
 ## markdown 扩展
 
@@ -48,17 +50,17 @@ vuepress build .
 
 ### 目录
 
-在文章开头使用 `[[toc]]` 即可，vuepress 会自动检测 markdown 文件中的标题，可通过配置 markdown.toc 自定义标题级别
+在文章开头使用 `[[toc]]` 即可，vuepress 会自动检测 markdown 文件中的标题，可通过配置 markdown.toc 自定义标题级别，设置侧边栏当页面不建议加目录
 
 ### 自定义容器
 
-我看就是 success，error 这种的输出信息，支持 `tip`，`warning`，`danger`三种
+页面内提示输出信息，支持 `tip`，`warning`，`danger`三种
 
 ::: tip
 提示块
 :::
 
-::: danger 还可以指定标题
+::: warning 还可以指定标题
 这里是带标题的警告块
 :::
 
@@ -78,12 +80,41 @@ export default {
 
 ## 配置
 
+- base
+- title
+- description
+- head
+- 
+
+## 默认主题
+
+### 首页
+
+### 导航栏
+
+### 侧边栏
+
+### 搜索栏
+
+### 更新时间
+
+### Git仓库和编辑链接
+
 ## 进阶
 
 - 自定义主题
-- 发布
+- 部署
+
+提供多种部署方式，这里介绍一下我自己使用的方法
+
+
+1. 源码发布同仓库
+1. 源码发布不同仓库
+
 - 使用 vue 组件
 - 多语言
+
+中文的都写不明白呢，多语言就算了
 
 ## 参考文档
 
