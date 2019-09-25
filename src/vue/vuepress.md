@@ -6,7 +6,7 @@ sidebar: auto
 
 ## 简介
 
-Vue 驱动的静态网站生成器
+Vue 驱动的静态网站生成器，能以markdown文件为基础快速生成一个vue官方文档风格的技术文档，支持个性化配置，支持vue组件。
 
 <img alt="vuepress" src="../../assets/images/vuepress.png" width="280px" height="280px" />
 
@@ -38,13 +38,18 @@ vuepress build .
 
 ## 图片（静态资源）
 
-使用相对路径引用的图片会被打包到dist/assets/img文件夹下(图片过小直接编译成base64插入文档中)
+使用相对路径引用的图片会被打包到dist/assets/img文件夹下(图片过小直接编译成base64插入文档中)，例如：
+图片: /assets/images/demo.png，/src/demo.md文件中使用下列语法引用即可
+
+```markdown
+[demo](./../assets/images/demo.png)
+```
 
 ## markdown 扩展
 
 ### emoji
 
-快用 emoji 让你的文章更生动吧 :yum:
+vuepress支持`:yum:`的格式插入emoji表情，快用 emoji 让你的文章更生动吧 :yum:
 
 [vuepress 支持的 emoji 列表](https://www.webfx.com/tools/emoji-cheat-sheet/)
 

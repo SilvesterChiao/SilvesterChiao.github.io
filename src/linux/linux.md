@@ -21,6 +21,27 @@
 - Webstorm
 - Android Studio
 - JDK
+- Jenkins
+- indicator-sysmonitor
+
+查看网速
+
+```bash
+sudo add-apt-repository ppa:fossfreedom/indicator-sysmonitor
+sudo apt-get update
+sudo apt-get install indicator-sysmonitor
+indicator-sysmonitor &
+ctrl + c
+```
+
+鼠标灵敏度设置
+
+```bash
+vim ~/.profile
+sudo xset mouse 2.0
+```
+
+然后 ctrl + c 后台运行，然后在上图中的显示区域点击图标，然后选择 preference，进行选择开机自启动设置。
 
 ## 参考链接
 
@@ -41,3 +62,6 @@
 1. [使用 GHOST 对 Windows 操作系统进行备份和还原](https://www.cnblogs.com/erwin/articles/7803877.html)
 1. [如何把 Google 云端硬盘当做虚拟磁盘一样挂载到 Linux](https://www.jianshu.com/p/86ecc835ba6d)
 1. [synergy 一个鼠标控制多个电脑，synergy 怎么用？synergy 配置教程](https://blog.csdn.net/mp624183768/article/details/78438822)
+1. [Ubuntu 16.04 怎么显示网速](https://jingyan.baidu.com/article/574c521955d3426c8d9dc184.html)
+1. [如何在 Ubuntu 16.04 上安装 Jenkins](https://www.jianshu.com/p/845f267aec52)
+1. [Ubuntu16.04 挂载硬盘（简单实用）](https://blog.csdn.net/csdn609387481/article/details/83419917)
