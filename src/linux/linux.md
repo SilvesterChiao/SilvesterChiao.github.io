@@ -65,3 +65,4 @@ sudo xset mouse 2.0
 1. [Ubuntu 16.04 怎么显示网速](https://jingyan.baidu.com/article/574c521955d3426c8d9dc184.html)
 1. [如何在 Ubuntu 16.04 上安装 Jenkins](https://www.jianshu.com/p/845f267aec52)
 1. [Ubuntu16.04 挂载硬盘（简单实用）](https://blog.csdn.net/csdn609387481/article/details/83419917)
+1. [linux 中 jenkins 启动/重启/停止命令 改端口](https://blog.csdn.net/weixin_42734930/article/details/82048658)
