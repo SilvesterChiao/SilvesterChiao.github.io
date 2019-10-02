@@ -24,3 +24,30 @@
 1. github api
 1. nodejs 调用
 1. 发布
+
+## 背景
+
+使用 nodejs 开发一个查看 github 仓库的命令行工具，2009 年 nodejs 横空出世，本意是使用 javascript 开发服务端程序，万万没想到，反倒是对前端开发产生了巨大的影响，自动化工具、打包工具、脚手架层出不穷，可以说 nodejs 是现代前端开发不可或缺的技能。本文通过开发一个非常简单的命令行工具，介绍从无到有的发布一个 npm 包。至于为什么选择查看 github 仓库，年龄大了脑子不好使，clone 项目的时候总忘记自己有啥项目，项目名叫啥，而且懒癌晚期，不想再去打开浏览器去 github 查。
+
+## 设计
+
+```bash
+# 查看 SilvesterChiao 用户的 public 仓库
+sil-github SilvesterChiao
+```
+
+## 步骤
+
+### 1. nodejs 基础
+
+nodejs 是
+
+### 2. 使用 colors 着色
+
+### 3. github api
+
+### 4. 发布 npm 包
+
+## 参考文献
+
+1. [一篇文章搞定 Github API 调用 (v3）](https://segmentfault.com/a/1190000015144126?utm_source=tag-newest)
