@@ -19,7 +19,7 @@
 
 1. nodejs 基础
 1. 命令行输入输出
-1. 解析输入
+1. 解析输入，参数（commondjs）
 1. colors 着色
 1. github api
 1. nodejs 调用
@@ -42,12 +42,15 @@ sil-github SilvesterChiao
 
 nodejs 是
 
-### 2. 使用 colors 着色
+### 2. 使用 Commanderjs 解析输入参数
 
-### 3. github api
+### 3. 使用 colors 着色
 
-### 4. 发布 npm 包
+### 4. Github API
+
+### 5. 发布 npm 包
 
 ## 参考文献
 
 1. [一篇文章搞定 Github API 调用 (v3）](https://segmentfault.com/a/1190000015144126?utm_source=tag-newest)
+1. [用 nodejs 读取 github 上某仓库的某条 issue 明细](https://cloud.tencent.com/developer/article/1438550)
