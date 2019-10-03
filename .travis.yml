@@ -3,6 +3,8 @@ node_js:
   - lts/*
 script:
   - npm run docs:build # 执行命令
+notifications:
+  webhooks: https://oapi.dingtalk.com/robot/send?access_token=492fc03110c7682e9f7fb9db98f6608d7f54ddc1412646a9c5132a626646610c
 deploy:
   provider: pages
   skip-cleanup: true
