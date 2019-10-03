@@ -4,7 +4,7 @@ node_js:
 script:
   - npm run docs:build # 执行命令
 notifications:
-  webhooks: https://oapi.dingtalk.com/robot/send?access_token=492fc03110c7682e9f7fb9db98f6608d7f54ddc1412646a9c5132a626646610c
+  webhooks: https://oapi.dingtalk.com/robot/send?access_token=abfb2b48ea8c94a692c416175ca2d415b90f26aac39d5e552d171868c91ab4c3
 deploy:
   provider: pages
   skip-cleanup: true
