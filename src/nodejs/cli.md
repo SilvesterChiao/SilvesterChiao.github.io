@@ -1,4 +1,4 @@
-# 使用 nodejs 开发一个属于自己的命令行工具
+# 使用 Nodejs 开发一个属于自己的命令行工具
 
 ## 命令行
 
@@ -15,10 +15,10 @@
 1. emoji 表情
 1. 聊天
 
-目的：基于 nodejs 的命令行工具，可以访问 github
+目的：基于 Nodejs 的命令行工具，可以访问 Github
 
-1. nodejs 基础
-1. github api
+1. Nodejs 基础
+1. Github API
 1. 命令行输入输出
 1. 解析输入，参数（commondjs）
 1. colors 着色
@@ -26,7 +26,7 @@
 
 ## 背景
 
-使用 _nodejs_ 开发一个查看 _github_ 仓库的命令行工具，2009 年 _nodejs_ 横空出世，本意是使用 _javascript_ 开发服务端程序，万万没想到，反倒是对前端开发产生了巨大的影响，自动化工具、打包工具、脚手架层出不穷，可以说 _nodejs_ 是现代前端开发不可或缺的技能。本文通过开发一个非常简单的命令行工具，介绍从无到有的发布一个 _npm_ 包。至于为什么选择查看 _github_ 仓库，年龄大了脑子不好使，_clone_ 项目的时候总忘记自己有啥项目，项目名叫啥，而且懒癌晚期，不想再去打开浏览器去 _github_ 查。
+使用 _Nodejs_ 开发一个查看 _Github_ 仓库的命令行工具，2009 年 _Nodejs_ 横空出世，本意是使用 _javascript_ 开发服务端程序，万万没想到，反倒是对前端开发产生了巨大的影响，自动化工具、打包工具、脚手架层出不穷，可以说 _Nodejs_ 是现代前端开发不可或缺的技能。本文通过开发一个非常简单的命令行工具，介绍从无到有的发布一个 _NPM_ 包。至于为什么选择查看 _Github_ 仓库，年龄大了脑子不好使，_clone_ 项目的时候总忘记自己有啥项目，项目名叫啥，而且懒癌晚期，不想再去打开浏览器去 _Github_ 查。
 
 ## 设计
 
@@ -37,9 +37,13 @@ sil-github --repos SilvesterChiao
 
 ## 实现步骤
 
-### 1. _nodejs_ 和 _NPM_
+### 1. _Nodejs_ 和 _NPM_
 
-nodejs 是
+_Node.js_ 是一个基于 Chrome V8 引擎的 _JavaScript_ 运行环境。发布于 2009 年 5 月。具有事件驱动、非阻塞、轻量、高效等特点。
+
+_NPM_ 是 _Node.js_ 自带的包管理工具。
+
+下面创建一个项目，开始写 _Node.js_ 命令行工具：
 
 ```bash
 # 创建一个仓库 sil-github-cli，
@@ -75,7 +79,7 @@ console.log('Hello World!');
 
 ### 2. Github API
 
-接下来在 _src/index.js_ 中写一个调用 _Github API_ 的方法:
+接下来在 _src/index.js_ 中写一个调用 _Github API_ 的方法：
 
 ```javascript
 function getRepos() {
@@ -132,7 +136,7 @@ spinner.succeed('Succeed');
 process.exit();
 ```
 
-命令行输出都是白色的，可以通过 _colors_ 包自定义。安装引入之后使用非常简单，针对字符串有两种方法。除了文本颜色还可以设置背景颜色、文字样式等。
+命令行输出都是白色的，可以通过 _colors_ 包进行美化。安装引入之后使用非常简单，针对字符串有两种方法。除了文本颜色还可以设置背景颜色、文字样式等。
 
 ```javascript
 const colors = require('colors');
@@ -162,7 +166,7 @@ if (program.repos) {
 }
 ```
 
-### 5. 发布 npm 包
+### 5. 发布 _NPM_ 包
 
 先在 [NPM](https://www.npmjs.com/) 上注册一个账号，注册之后回到项目中执行 `npm login` ，输入用户名、密码、Email，登录之后会显示 _NPM_ 源地址，如果使用淘宝镜像需要在发布之前改回官方源。
 
@@ -170,7 +174,7 @@ if (program.repos) {
 npm config set registry=http://registry.npmjs.org
 ```
 
-最后到了激动人心的时刻了，执行 `npm publish`，_npm_ 会读取项目下的 _README.md_ 、 _package.json_ 等信息发送到 _NPM_ 源上，发布之前最好去 [NPM](https://www.npmjs.com/) 上搜索一下有没有重名，后续更新再发布的话别忘了改 _package.json_ 中的 _version_。发布成功之后就可以全局安装使用了。
+最后到了激动人心的时刻了，执行 `npm publish`，_NPM_ 会读取项目下的 _README.md_ 、 _package.json_ 等信息发送到 _NPM_ 源上，发布之前最好去 [NPM](https://www.npmjs.com/) 上搜索一下有没有重名，后续更新再发布的话别忘了修改 _package.json_ 中的 _version_。发布成功之后就可以全局安装使用了。
 
 ![publish](../../assets/images/npm_publish.png)
 
