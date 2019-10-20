@@ -207,6 +207,7 @@ module.exports = {
       ],
     },
   },
+  plugins: ['@vuepress/back-to-top'],
   configureWebpack: {
     resolve: {
       alias: {

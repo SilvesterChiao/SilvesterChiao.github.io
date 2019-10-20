@@ -9,7 +9,9 @@
   "dependencies": {
     "vuepress": "^1.1.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.0.0-rc.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "npm run docs:dev",
