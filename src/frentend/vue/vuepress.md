@@ -8,7 +8,7 @@ sidebar: auto
 
 Vue 驱动的静态网站生成器，能以markdown文件为基础快速生成一个vue官方文档风格的技术文档，支持个性化配置，支持vue组件。
 
-<img alt="vuepress" src="../../assets/images/vuepress.png" width="280px" height="280px" />
+<img alt="vuepress" src="../../../assets/images/vuepress.png" width="280px" height="280px" />
 
 ## 快速起步
 

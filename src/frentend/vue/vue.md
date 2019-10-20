@@ -4,7 +4,7 @@
 
 [文档地址](https://cn.vuejs.org/)
 
-<img src="../../assets/images/vue.png" width="200" height="200" alt="vue" align=center />
+<img src="../../../assets/images/vue.png" width="200" height="200" alt="vue" align=center />
 
 - [模板语法](/src/vue/syntax.md)
 - [计算属性和侦听器]()

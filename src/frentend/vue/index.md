@@ -1,10 +1,10 @@
 # Vue 全家桶
 
-- [Vue(前端 MV\*框架)](/src/vue/vue.md)
-- [vue-router(前端单页面路由)](/src/vue/router.md)
-- [vuex(vue 组件状态管理器)](/src/vue/vuex.md)
-- [axios(ajax 库)](/src/vue/axios.md)
-- [文档生成器-vuepress](/src/vue/vuepress.md)
+- [Vue(前端 MV\*框架)](vue.md)
+- [vue-router(前端单页面路由)](router.md)
+- [vuex(vue 组件状态管理器)](vuex.md)
+- [axios(ajax 库)](axios.md)
+- [文档生成器-vuepress](vuepress.md)
 
 ## 参考链接
 
