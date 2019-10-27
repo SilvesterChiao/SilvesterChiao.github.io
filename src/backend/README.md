@@ -1,16 +1,14 @@
-# 后端
+# Nodejs 基础
 
+## 介绍
 
-- 操作系统
-  - [Linux](linux/linux.md)
-  - Tmux
-- 数据库
-  - [MySQL](mysql/index.md)
-- [Nginx](nginx/index.md)
-- Nodejs
-- Express
+## NPM
 
-## 全局 NPM 包
+## 安装
+
+## 常用 NPM 包
+
+### 全局
 
 - babel
 - babel-cli
@@ -26,3 +24,8 @@
 - vue-cli
 - webpack
 - yo
+
+### 局部
+
+- express
+- axios

@@ -1,4 +1,4 @@
-# tmux
+# Tmux
 
 linux 终端复用软件
 

@@ -2,11 +2,10 @@ module.exports = {
   base: '/ouroboros/',
   dest: 'docs',
   title: '西尔杂货店',
+  description: '跋涉千里向你道别，在最初和最后当雪夜。',
   locales: {
     '/': {
       lang: 'zh-CN',
-      title: '西尔杂货店',
-      description: '跋涉千里向你道别，在最初和最后当雪夜。'
     }
   },
   head: [
@@ -130,7 +129,7 @@ module.exports = {
           collapsable: false, // 可选的, 默认值是 true,
           sidebarDepth: 1,    // 可选的, 默认值是 1
           children: [
-            '/backend/nodejs/',
+            '',
             '/backend/nodejs/readline',
             '/backend/nodejs/process',
             '/backend/nodejs/cli',
@@ -207,7 +206,7 @@ module.exports = {
       ],
     },
   },
-  plugins: ['@vuepress/back-to-top'],
+  plugins: ['@vuepress/back-to-top', '@vuepress/nprogress'],
   configureWebpack: {
     resolve: {
       alias: {
