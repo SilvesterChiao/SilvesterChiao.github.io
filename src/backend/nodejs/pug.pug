@@ -1,0 +1,27 @@
+header
+    title pug基础语法
+body
+    h1#title pug基础语法
+    div
+        ul.template-list
+            li Pug/Jade 
+            li EJS
+            li
+                a(href="www.baidu.com") baidu
+                | 跳转到百度
+    div
+        a(href='baidu.com') 百度
+        a(class='button' href='baidu.com') 百度
+        a(class='button', href='baidu.com') 百度
+    div
+        // 已登录
+        - var authenticated = true
+        div(class=authenticated ? 'authed' : 'anon')
+        input(
+            type='checkbox'
+            name='agreement'
+            checked
+        )
+    p.description.
+        用户没有添加描述。
+        不写点什么吗...
