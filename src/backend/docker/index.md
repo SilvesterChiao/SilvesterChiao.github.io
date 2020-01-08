@@ -65,25 +65,52 @@ docker stop f9
 1. RUN：在镜像中执行的命令(shell/exec)，命令较长时可以使用 `\` 换行
     RUN <command> 或 RUN ["executable", "param1", "param2"]
     前者等同于RUN ["/bin/bash", "-c", "echo hello"]
-1. COPY：
+1. COPY：复制本地主机的 `<src>` 到容器中的 `<dest>` 。当使用本地目录为源目录时，推荐使用 `COPY` 。
+    ```dockerfile
+    # COPY <src> <dest>
+    ```
 1. ADD：将复制指定的 `<src>` 到容器中的 `<dest>`，`<src>` 可以是Dockerfile所在目录的一个相对路径，也可以是一个URL，或者一个tar文件（自动解压为目录）。
-    ADD <src> <dest>
+    ```dockerfile
+    # ADD <src> <dest>
+    ```
 1. CMD：只执行一条CMD，指定多条后边的会覆盖前边的，如果运行容器时指定了运行的命令会覆盖CMD命令，有三种格式
     CMD ["executable","param1","param2"] 使用 exec 执行，推荐方式；
     CMD command param1 param2 在 /bin/sh 中执行，提供给需要交互的应用；
     CMD command param1 param2 在 /bin/sh 中执行，提供给需要交互的应用；
-1. ENTERPOINT：
+1. ENTRYPOINT：配置容器启动后执行的命令，并且不可被 `docker run` 提供的参数覆盖。每个 DockerFile 中只能由一个 `ENTRYPOINT` ，指定多个只有最后一个生效。
+    ```dockerfile
+    # ENTRYPOINT ["executable", "param1", "param2"]
+    # ENTRYPOINT command param1 param2 (shell中执行)
+    ```
 1. ENV：指定一个环境变量，会被后续 `RUN` 指令使用，并在容器运行时保持。
-    ENV <key> <value>
+    ```dockerfile
+    # ENV <key> <value>
+    ```
 1. ARG：
-1. VOLUME：
+1. VOLUME：创建一个可以从本地主机或其他容器挂载的挂载点，一般用来存放数据库和需要保持的数据等。
+    ```dockerfile
+    VOLUME ["/data"]
+    ```
 1. EXPOSE：暴露端口，在启动容器时需要通过 -P，Docker 主机会自动分配一个端口转发到指定的端口。
-    EXPOSE <port> [<port>...]
-1. WORKDIR：
-1. USER：
+    ```dockerfile
+    # EXPOSE <port> [<port>...]
+    ```
+1. WORKDIR：为后续的 `RUN`、 `CMD`、 `ENTRYPOINT` 指令配置工作目录。
+    ```dockerfile
+    WORKDIR /path/to/workdir
+    ```
+1. USER：指定运行容器时的用户名或 UID ，后续的 `RUN` 也会使用指定用户。
+    ```dockerfile
+    USER daemon
+    ```
 1. HEALTHCHECK：
-1. ONBUILD：
+1. ONBUILD：配置当所创建的镜像作为其他新创建镜像的基础镜像时，所执行的操作指令。
+    ```dockerfile
+    # ONBUILD [INSTRUCTION]
+    ```
 
 ## Docker Compose
 
 ## 参考文献
+
+1. [Docker中文文档](http://www.dockerinfo.net/document)
