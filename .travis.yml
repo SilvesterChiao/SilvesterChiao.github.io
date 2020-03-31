@@ -7,7 +7,7 @@ notifications:
   webhooks:
     urls:
       - https://oapi.dingtalk.com/robot/send?access_token=abfb2b48ea8c94a692c416175ca2d415b90f26aac39d5e552d171868c91ab4c3
-    on_success: change # default: always
+    on_success: always # default: always
     on_failure: always # default: always
     on_start: change # default: never
     on_cancel: always # default: always

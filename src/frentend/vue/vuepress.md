@@ -89,7 +89,6 @@ export default {
 - title
 - description
 - head
-- 
 
 ## 默认主题
 

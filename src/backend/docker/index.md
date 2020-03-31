@@ -2,7 +2,7 @@
 
 ## 介绍
 
-![Yeoman](../../../assets/images/yeoman.png)
+![Yeoman](../../../assets/images/docker.jpg)
 
 ## 安装
 
@@ -38,7 +38,7 @@ docker info
 docker ps
 # docker run [OPTIONS] IMAGE[:TAG] [COMMAND] [ARG...]
 docker run -dP nginx
-docker run -d -p 8080:80 nginx
+docker run -d -p 8080:80 --name mynginx nginx
 # docker images [OPTIONS] [REPOSITORY[:TAG]]
 docker images
 # docker pull [OPTIONS] NAME[:TAG]
@@ -63,7 +63,7 @@ docker stop f9
 1. FROM：必须是第一个，可使用多个
 1. MAINTAINER：维护者信息
 1. RUN：在镜像中执行的命令(shell/exec)，命令较长时可以使用 `\` 换行
-    RUN <command> 或 RUN ["executable", "param1", "param2"]
+    RUN command 或 RUN ["executable", "param1", "param2"]
     前者等同于RUN ["/bin/bash", "-c", "echo hello"]
 1. COPY：复制本地主机的 `<src>` 到容器中的 `<dest>` 。当使用本地目录为源目录时，推荐使用 `COPY` 。
     ```dockerfile
