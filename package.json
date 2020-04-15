@@ -17,7 +17,13 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "npm run docs:dev",
     "docs:dev": "vuepress dev src",
-    "docs:build": "vuepress build src"
+    "docs:build": "vuepress build src",
+    "docker:rmi": "docker rmi silvesterblog",
+    "docker:build": "docker build -t silvesterblog:latest .",
+    "docker:rm": "docker rm $(docker ps -aq --filter 'name=silvesterBlog')",
+    "docker:run": "docker run -p 3009:8080 -d --rm --name silvesterBlog silvesterblog",
+    "build": "npm run docs:build && npm run docker:rmi && npm run docker:build",
+    "create": "npm run docker:run"
   },
   "repository": {
     "type": "git",

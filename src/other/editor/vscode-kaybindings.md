@@ -7,6 +7,8 @@
 - win + tab：任务视图
 - win + 1-9：打开任务栏锁定程序
 - win + 方向：最大化，分屏
+- win + tab: 虚拟桌面
+- win + ctrl + left/right: 切换虚拟桌面
 
 ## chrome
 

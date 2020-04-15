@@ -62,3 +62,4 @@ typings/
 
 # vuepress构建目录
 .vuepress/dist
+docs

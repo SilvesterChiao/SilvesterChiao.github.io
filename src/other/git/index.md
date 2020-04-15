@@ -2,7 +2,18 @@
 
 Git 是目前世界上最先进的分布式版本控制系统, 由 Linus 开发.
 
+1. [配置](config.md)
+1. [提交](commit.md)
+1. [分支](branch.md)
+1. [远程](remote.md)
+1. [暂存](stash.md)
+1. [日志](log.md)
+1. [标签](tag.md)
+1. [ignore文件](ignore.md)
+1. [工作流](workflow.md)
+
 ```bash
+# git常用命令
 git config --list
 git config --global user.name "Your Name"
 git config --global user.email "Your Email"
@@ -59,6 +70,11 @@ Feature 分支: 从 dev 创建 feature 分支, 开发试验功能, 完成则合�
 .gitignore 文件  
 配置别名  
 搭建服务器
+
+## 常见问题
+
+1. 无法push到远程仓库  
+  https模式时添加远程仓库使用git协议，origin修改为https地址即可
 
 ## 参考链接
 

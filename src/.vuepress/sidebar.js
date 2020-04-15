@@ -2,7 +2,7 @@
  * @Author: fu.nan
  * @Date: 2020-03-31 22:02:32
  * @LastEditors: fu.nan
- * @LastEditTime: 2020-04-01 00:03:52
+ * @LastEditTime: 2020-04-05 17:44:23
  */
 module.exports = {
   sidebar: {
@@ -75,16 +75,6 @@ module.exports = {
           '/frentend/vue/vuex',
           '/frentend/vue/vuepress',
           '/frentend/vue/axios',
-        ]
-      },
-      {
-        title: 'React',   // 必要的
-        collapsable: false, // 可选的, 默认值是 true,
-        children: [
-          '/frentend/react/',
-          '/frentend/react/classNames',
-          '/frentend/react/router',
-          '/frentend/react/mobx',
         ]
       },
     ],

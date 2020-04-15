@@ -114,3 +114,6 @@ docker stop f9
 ## 参考文献
 
 1. [Docker中文文档](http://www.dockerinfo.net/document)
+1. [[手把手系列之]Docker 部署 vue 项目](https://juejin.im/post/5cce4b1cf265da0373719819)
+1. [Docker小栈-【docker ps】](https://www.jianshu.com/p/8474119c8cd1)
+1. [docker如何退出就删除容器（示例）](https://blog.csdn.net/qq_36850813/article/details/96848886)
