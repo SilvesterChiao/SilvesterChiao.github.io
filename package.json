@@ -23,7 +23,10 @@
     "docker:rm": "docker rm $(docker ps -aq --filter 'name=silvesterBlog')",
     "docker:run": "docker run -p 3009:8080 -d --rm --name silvesterBlog silvesterblog",
     "build": "npm run docs:build && npm run docker:rmi && npm run docker:build",
-    "create": "npm run docker:run"
+    "create": "npm run docker:run",
+    "changelog": "conventional-changelog -p angular -o CHANGELOG.md",
+    "git": "git status",
+    "log": "git --version"
   },
   "repository": {
     "type": "git",

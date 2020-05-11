@@ -117,3 +117,7 @@ sudo chmod 644 mysqld.cnf
 flush privileges
 /etc/init.d/mysql restart
 ```
+
+## 参考链接
+
+1. [MySQL 教程](https://www.runoob.com/mysql/mysql-tutorial.html)

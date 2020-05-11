@@ -29,6 +29,7 @@ sudo update-alternatives --config x-terminal-emulator
 
 ## 参考链接
 
+1. [Guake Terminal](http://guake-project.org/)
 1. [Ubuntu 从入门到放弃：安装 oh-my-zsh + guake](https://www.jianshu.com/p/5da3546a8d9e)
 1. [Terminator 加 oh-my-zsh 打造最好用的 ubuntu 终端](https://www.cnblogs.com/yangshiyu/p/6941555.html)
 1. [Ubuntu 从入门到放弃：安装 Terminator](https://www.jianshu.com/p/af6ec119eb56)
@@ -37,3 +38,4 @@ sudo update-alternatives --config x-terminal-emulator
 1. [Ubuntu（16.04）中安装 terminator 以及美化](https://www.jianshu.com/p/5d1999d05d36)
 1. [令人眼前一亮的下拉式终端 Tilda & Guake](https://www.jianshu.com/p/4d207934abef)
 1. [Guake Terminal ── linux 下完美帅气的终端](https://www.cnblogs.com/slgkaifa/p/7141153.html)
+1. [Ubuntu上一个炫酷的终端程序--guake](https://zhuanlan.zhihu.com/p/40684802)

@@ -72,3 +72,4 @@ sudo xset mouse 2.0
 1. [如何在 Ubuntu 16.04 上安装 Jenkins](https://www.jianshu.com/p/845f267aec52)
 1. [Ubuntu16.04 挂载硬盘（简单实用）](https://blog.csdn.net/csdn609387481/article/details/83419917)
 1. [linux 中 jenkins 启动/重启/停止命令 改端口](https://blog.csdn.net/weixin_42734930/article/details/82048658)
+1. [放下Windows和Mac，使用Linux作为主力系统的完美体验](https://zhuanlan.zhihu.com/p/68921091)
