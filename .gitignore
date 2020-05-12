@@ -60,6 +60,8 @@ typings/
 # next.js build output
 .next
 
-# vuepress构建目录
+# vuepress 构建目录
 .vuepress/dist
+
+# vuepress 构建目录
 docs
