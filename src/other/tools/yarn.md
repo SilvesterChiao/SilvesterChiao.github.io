@@ -2,7 +2,11 @@
 
 ## 安装
 
-下载msi文件双击安装
+- 下载 `msi` 文件双击安装
+- 使用 `npm` 全局安装 `yarn`
+    ```bash
+    npm install -g yarn
+    ```
 
 ## 命令
 
@@ -27,11 +31,33 @@ yarn remove [package]
 yarn
 yarn install
 # 全局安装
-yarn global add
-# 查看
+yarn global add [package]
+# 查看全局包列表
 yarn global list
-# 执行任务
+# 查看任务列表
 yarn run
+# 执行任务
+yarn dev
+yarn run dev
+# 登录
+yarn login
+# 退出
+yarn logout
+# 发布
+yarn publish
+```
+
+## 常见问题
+
+1. 全局安装包命令无效
+
+```bash
+# 查看环境变量
+echo $PATH
+# 查看 `yarn bin` 目录
+yarn global bin
+# 输入或者在 `.bashrc` 中添加如下命令
+export PATH=$PATH:/the/path/to/.yarn/global/bin/
 ```
 
 ## 参考链接
