@@ -16,7 +16,7 @@ npm config delete proxy
 
 ```bash
 # 生成 package.json 文件
-npm init
+npm init -y
 # 查看全局包
 npm list -g —depth 0
 # 安装并保存 npm 包
