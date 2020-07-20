@@ -2,7 +2,7 @@
  * @Author: SilvesterChiao
  * @Date: 2020-03-31 22:02:32
  * @LastEditors: SilvesterChiao
- * @LastEditTime: 2020-07-03 11:15:57
+ * @LastEditTime: 2020-07-20 16:15:38
  */
 module.exports = {
   sidebar: {
@@ -12,9 +12,9 @@ module.exports = {
         collapsable: false, // 可选的, 默认值是 true,
         // sidebarDepth: 0,    // 可选的, 默认值是 1
         children: [
-          '',
-          '/basic/audition',
-          '/basic/http/',
+          '', // 对应 /basic 下 README.md 文件
+          '/basic/audition', // 对应 /basic下 audition.md 文件
+          '/basic/http/', // 对应 /basic/http 下 index.md 文件
           '/basic/oo/',
         ]
       },
@@ -46,7 +46,8 @@ module.exports = {
         collapsable: false, // 可选的, 默认值是 true,
         children: [
           '',
-          '/frentend/other/browser/',
+          '/frentend/other/browser',
+          '/frentend/other/web',
         ]
       },
       {
