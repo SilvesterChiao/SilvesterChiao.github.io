@@ -45,6 +45,14 @@ yarn login
 yarn logout
 # 发布
 yarn publish
+# 换源
+yarn config set registry http://registry.npm.taobao.org/
+yarn config set registry https://registry.npmjs.org/
+# 代理
+yarn config set proxy http://127.0.0.1:1080
+yarn config set https-proxy http://127.0.0.1:1080
+yarn config delete proxy
+yarn config delete https-proxy
 ```
 
 ## 常见问题

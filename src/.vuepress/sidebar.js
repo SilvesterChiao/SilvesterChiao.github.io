@@ -1,8 +1,8 @@
 /*
- * @Author: fu.nan
+ * @Author: SilvesterChiao
  * @Date: 2020-03-31 22:02:32
- * @LastEditors: fu.nan
- * @LastEditTime: 2020-04-05 17:44:23
+ * @LastEditors: SilvesterChiao
+ * @LastEditTime: 2020-07-03 11:15:57
  */
 module.exports = {
   sidebar: {
@@ -42,10 +42,18 @@ module.exports = {
     ],
     '/frentend/':  [
       {
-        title: 'HTML',   // 必要的
+        title: '其他',   // 必要的
         collapsable: false, // 可选的, 默认值是 true,
         children: [
           '',
+          '/frentend/other/browser/',
+        ]
+      },
+      {
+        title: 'HTML',   // 必要的
+        collapsable: false, // 可选的, 默认值是 true,
+        children: [
+          '/frentend/html/',
         ]
       },
       {
@@ -75,6 +83,13 @@ module.exports = {
           '/frentend/vue/vuex',
           '/frentend/vue/vuepress',
           '/frentend/vue/axios',
+        ]
+      },
+      {
+        title: 'React',   // 必要的
+        collapsable: false, // 可选的, 默认值是 true,
+        children: [
+          '/frentend/react/',
         ]
       },
     ],

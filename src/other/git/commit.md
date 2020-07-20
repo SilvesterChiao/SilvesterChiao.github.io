@@ -1,8 +1,8 @@
 <!--
- * @Author: fu.nan
+ * @Author: SilvesterChiao
  * @Date: 2020-04-07 16:25:23
- * @LastEditors: fu.nan
- * @LastEditTime: 2020-04-07 18:29:31
+ * @LastEditors: SilvesterChiao
+ * @LastEditTime: 2020-06-28 10:17:58
  -->
 # 提交
 
@@ -27,6 +27,7 @@ git reset HEAD <file>
 # 暂存区为空则恢复到版本库
 # 暂存区不为空则恢复到暂存区
 git checkout -- file
+
 # 撤销提交
 git revert commit-id
 ```

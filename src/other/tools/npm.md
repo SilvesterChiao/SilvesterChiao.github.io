@@ -25,6 +25,21 @@ npm install [package] —save-dev | -D
 npm install [package] -g
 # 卸载 npm 包
 npm uninstall [package]
+# 换源
+npm config set registry http://registry.npm.taobao.org/
+npm config set registry https://registry.npmjs.org/
+# 代理
+npm config set proxy http://127.0.0.1:1080
+npm config set https-proxy http://127.0.0.1:1080
+npm config delete proxy
+npm config delete https-proxy
+# 打开全局配置 .npmrc 文件
+npm config edit
+npm config ls -l
+# 查看缓存目录
+npm config get cache
+# 查看全局包安装路径
+npm config get prefix
 ```
 
 ## npx
@@ -89,6 +104,7 @@ yarn run
 1. babel-cli
 1. vue-cli
 1. create-react-app
+1. cross-env
 
 ## 参考链接
 
