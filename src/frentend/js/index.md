@@ -1,6 +1,6 @@
 # JavaScript基础
 
-JavaScript 包括三个部分: EcmaScript, BOM, DOM.
+JavaScript 包括三个部分: [EcmaScript](./es6/), [BOM](./bom), [DOM](./dom).
 
 ## 运算符
 
