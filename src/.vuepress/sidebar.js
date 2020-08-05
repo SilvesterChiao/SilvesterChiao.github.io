@@ -2,7 +2,7 @@
  * @Author: SilvesterChiao
  * @Date: 2020-03-31 22:02:32
  * @LastEditors: SilvesterChiao
- * @LastEditTime: 2020-07-30 17:53:33
+ * @LastEditTime: 2020-08-05 15:26:22
  */
 module.exports = {
   sidebar: {
@@ -175,7 +175,6 @@ module.exports = {
           '/other/tools/yarn',
           '/other/tools/grunt',
           '/other/tools/gulp',
-          '/other/tools/webpack',
         ]
       },
       {

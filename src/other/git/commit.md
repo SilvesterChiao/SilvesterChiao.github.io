@@ -2,7 +2,7 @@
  * @Author: SilvesterChiao
  * @Date: 2020-04-07 16:25:23
  * @LastEditors: SilvesterChiao
- * @LastEditTime: 2020-07-27 15:03:13
+ * @LastEditTime: 2020-08-05 15:53:59
  -->
 # 提交
 
@@ -15,6 +15,8 @@ git status
 git add --all
 # 提交
 git commit -m 'message'
+# 合并到上次提交
+git commit --amend
 # 挑选提交
 git cherry-pick commit-id
 # 回滚
@@ -35,4 +37,6 @@ git revert commit-id
 git reset --mixed
 # 
 git reset HEAD .
+# 放弃左右修改
+git checkout .
 ```
