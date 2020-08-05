@@ -2,7 +2,7 @@
  * @Author: SilvesterChiao
  * @Date: 2020-04-07 16:25:23
  * @LastEditors: SilvesterChiao
- * @LastEditTime: 2020-06-28 10:17:58
+ * @LastEditTime: 2020-07-27 15:03:13
  -->
 # 提交
 
@@ -28,6 +28,11 @@ git reset HEAD <file>
 # 暂存区不为空则恢复到暂存区
 git checkout -- file
 
-# 撤销提交
+# 还原, 保留提交记录
 git revert commit-id
+
+# 撤销所有暂存, 保留修改
+git reset --mixed
+# 
+git reset HEAD .
 ```

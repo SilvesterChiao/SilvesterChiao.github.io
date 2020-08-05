@@ -2,7 +2,7 @@
  * @Author: SilvesterChiao
  * @Date: 2020-03-31 22:02:32
  * @LastEditors: SilvesterChiao
- * @LastEditTime: 2020-07-20 16:15:38
+ * @LastEditTime: 2020-07-30 17:53:33
  */
 module.exports = {
   sidebar: {
@@ -42,7 +42,7 @@ module.exports = {
     ],
     '/frentend/':  [
       {
-        title: '其他',   // 必要的
+        title: '前端开发',   // 必要的
         collapsable: false, // 可选的, 默认值是 true,
         children: [
           '',
