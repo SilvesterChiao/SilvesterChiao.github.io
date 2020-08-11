@@ -33,15 +33,15 @@ npm i -g apidoc
 
 ## params
 
-@api { method } path [ title ]
-@apiDefine name [ title ][ description ]
-@apiDescription text
-@apiGroup name
-@apiName name
-@apiUse name
-@apiParam [( group )][{ type }] [ field = defaultValue ][ description ]
-@apiSuccess [( group )][{ type }] field [ description ]
-@apiError [( group )][{ type }] field [ description ]
-@apiParamExample [{ type }][ title ] example
-@apiSuccessExample
-@apiSampleRequest url
+- @api { method } path [ title ]
+- @apiDefine name [ title ][ description ]
+- @apiDescription text
+- @apiGroup name
+- @apiName name
+- @apiUse name
+- @apiParam [( group )][{ type }] [ field = defaultValue ][ description ]
+- @apiSuccess [( group )][{ type }] field [ description ]
+- @apiError [( group )][{ type }] field [ description ]
+- @apiParamExample [{ type }][ title ] example
+- @apiSuccessExample
+- @apiSampleRequest url

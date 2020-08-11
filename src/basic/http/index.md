@@ -100,3 +100,8 @@ HTTP1.1 47 种首部字段
 | Content-Type     | 实体主体的媒体类型         |
 | Expires          | 实体主体过期的日期时间     |
 | Last-Modified    | 资源的最后修改日期时间     |
+
+## 参考文档
+
+1. [看完这篇HTTP，跟面试官扯皮就没问题了](https://zhuanlan.zhihu.com/p/102237039)
+1. [HTTP中GET与POST的区别，99 %的人都理解错了](https://zhuanlan.zhihu.com/p/114846445)

@@ -2,11 +2,22 @@
  * @Author: SilvesterChiao
  * @Date: 2020-04-07 16:25:23
  * @LastEditors: SilvesterChiao
- * @LastEditTime: 2020-08-05 15:53:59
+ * @LastEditTime: 2020-08-07 14:36:01
  -->
 # 提交
 
 对提交进行操作
+
+## 相关命令
+
+1. git status
+1. git add
+1. git commit
+1. git cherry-pick
+1. git reset
+1. git checkout
+1. git revert
+1. git rebase
 
 ```bash
 # 查看
@@ -39,4 +50,9 @@ git reset --mixed
 git reset HEAD .
 # 放弃左右修改
 git checkout .
+# 合并提交
+# pick: 执行 commit
+# squash: 合并到上一个 commit
+git rebase -i HEAD~6
+git rebase -i 10b73908
 ```

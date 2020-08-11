@@ -2,9 +2,18 @@
  * @Author: SilvesterChiao
  * @Date: 2020-04-07 11:30:07
  * @LastEditors: SilvesterChiao
- * @LastEditTime: 2020-04-07 19:55:15
+ * @LastEditTime: 2020-08-07 16:21:31
  -->
 # Git 分支
+
+分支操作
+
+## 相关命令
+
+1. git branch
+1. git checkout
+1. git merge
+1. git rebase
 
 ```bash
 # 查看本地分支

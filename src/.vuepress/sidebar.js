@@ -2,7 +2,7 @@
  * @Author: SilvesterChiao
  * @Date: 2020-03-31 22:02:32
  * @LastEditors: SilvesterChiao
- * @LastEditTime: 2020-08-05 15:26:22
+ * @LastEditTime: 2020-08-11 18:19:33
  */
 module.exports = {
   sidebar: {
@@ -166,15 +166,16 @@ module.exports = {
         title: '工具',
         collapsable: false, // 可选的, 默认值是 true,
         children: [
-          '/other/tools/apidoc',
-          '/other/tools/babel',
+          '/other/tools/yeoman',
           '/other/tools/bower',
-          '/other/tools/eslint',
-          '/other/tools/prettier',
-          '/other/tools/npm',
-          '/other/tools/yarn',
           '/other/tools/grunt',
           '/other/tools/gulp',
+          '/other/tools/hexo',
+          '/other/tools/apidoc',
+          '/other/tools/jsdoc',
+          '/other/tools/npm',
+          '/other/tools/nvm',
+          '/other/tools/yarn',
         ]
       },
       {

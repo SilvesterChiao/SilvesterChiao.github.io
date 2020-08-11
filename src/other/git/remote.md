@@ -2,10 +2,20 @@
  * @Author: SilvesterChiao
  * @Date: 2020-04-07 11:31:12
  * @LastEditors: SilvesterChiao
- * @LastEditTime: 2020-04-29 10:42:57
+ * @LastEditTime: 2020-08-07 11:43:50
  -->
 
 # 远程分支
+
+远程操作
+
+## 相关命令
+
+1. git remote
+1. git checkout
+1. git pull
+1. git push
+1. git fetch
 
 ```bash
 # 查看远程仓库列表
