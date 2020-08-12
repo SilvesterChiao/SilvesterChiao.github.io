@@ -1,5 +1,7 @@
 # ouroboros
 
+[![Build Status](https://travis-ci.org/SilvesterChiao/SilvesterChiao.github.io.svg?branch=master)](https://travis-ci.org/SilvesterChiao/SilvesterChiao.github.io)
+
 知识管理
 
 ## 发布流程

@@ -12,16 +12,16 @@
 
 ## Tool
 
-- [NPM](https://www.npmjs.com/)
+- [NPM](/src/tools/npm.md)
 - [Bower](/src/tools/bower.md)
-- Yeoman
+- [Yeoman](/src/tools/yeoman.md)
 - Editorconfig
-- [ESLint](/src/tools/eslint.md)
+- ESLint
 - Uglify
 - Wiredep
-- [Babel](/src/tools/babel.md)
+- Babel
 - [Grunt](/src/tools/grunt.md) / [Gulp](/src/tools/gulp.md) / NPM Script
-- [Webpack](/src/tools/webpack.md)
+- Webpack
 - Mock.js
 - json-server
 - PostCSS
