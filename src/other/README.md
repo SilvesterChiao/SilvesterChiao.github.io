@@ -2,9 +2,9 @@
 
 ## 编辑器/IDE
 
-- [Emmet](/src/editor/emmet.md)
-- [Vim/gVim](/src/editor/vim.md)
-- [Visual Studio Code](/src/editor/vscode.md)
+- [Emmet](editor/emmet.md)
+- [Vim/gVim](editor/vim.md)
+- [Visual Studio Code](editor/vscode.md)
 - Sublime Text
 - Atom
 - Webstorm
@@ -12,15 +12,15 @@
 
 ## Tool
 
-- [NPM](/src/tools/npm.md)
-- [Bower](/src/tools/bower.md)
-- [Yeoman](/src/tools/yeoman.md)
+- [NPM](tools/npm.md)
+- [Bower](tools/bower.md)
+- [Yeoman](tools/yeoman.md)
 - Editorconfig
 - ESLint
 - Uglify
 - Wiredep
 - Babel
-- [Grunt](/src/tools/grunt.md) / [Gulp](/src/tools/gulp.md) / NPM Script
+- [Grunt](tools/grunt.md) / [Gulp](tools/gulp.md) / NPM Script
 - Webpack
 - Mock.js
 - json-server
@@ -31,13 +31,13 @@
 
 ## 通用
 
-- [Markdown](src/markdown.md)
+- [Markdown](markdown.md)
 - MD5
 - YAML
 
 ## 开发环境
 
-- [Git](src/git/index.md)
+- [Git](git/index.md)
 - Ruby
 - MongoDB
 - VMware
