@@ -184,6 +184,6 @@ p.appendChild(span)
 
 node 包括所有节点, element 只表示 HTML 元素节点
 
-## 参考链接
+## 参考文档
 
 1. [w3school HTML DOM 教程](https://www.w3school.com.cn/htmldom/index.asp)

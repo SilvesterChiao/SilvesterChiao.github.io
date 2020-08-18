@@ -132,7 +132,7 @@
 - 纵向拆分编辑器
 - 切换活动终端
 
-## 参考链接
+## 参考文档
 
 - [chrome 快捷键(官方最全)](https://blog.csdn.net/wangweiwells/article/details/88606142)
 - [Chrome 快捷键整理](https://cloud.tencent.com/developer/article/1392332)

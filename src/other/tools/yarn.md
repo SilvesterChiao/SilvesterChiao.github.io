@@ -68,7 +68,7 @@ yarn global bin
 export PATH=$PATH:/the/path/to/.yarn/global/bin/
 ```
 
-## 参考链接
+## 参考文档
 
 1. [Yarn](https://yarnpkg.com/)
 1. [Yarn 中文文档](https://yarn.bootcss.com/)

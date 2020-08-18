@@ -31,6 +31,6 @@
 1. 模板方法
 1. 访问者
 
-## 参考链接
+## 参考文档
 
 1. [Refactoring Guru](https://refactoringguru.cn/design-patterns)

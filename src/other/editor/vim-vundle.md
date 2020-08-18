@@ -6,7 +6,7 @@
  -->
 # Vim 插件
 
-## 参考链接
+## 参考文档
 
 1. [在windows的git bash 中用vim怎么去配置安装vim的插件呢 ?](https://segmentfault.com/q/1010000004146607)
 1. [Vim的NerdTree插件](https://segmentfault.com/a/1190000015143474)

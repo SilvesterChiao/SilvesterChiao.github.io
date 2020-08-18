@@ -106,7 +106,7 @@ yarn run
 1. create-react-app
 1. cross-env
 
-## 参考链接
+## 参考文档
 
 1. [NVM安装nodejs的方法实用步骤](https://www.cnblogs.com/wujindong/p/12130189.html)
 1. [npm scripts 使用指南](http://www.ruanyifeng.com/blog/2016/10/npm_scripts.html)

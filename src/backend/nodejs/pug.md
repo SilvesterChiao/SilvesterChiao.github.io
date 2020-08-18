@@ -185,6 +185,6 @@ footer#footer
     p Copyright (c) 123
 ```
 
-## 参考文献
+## 参考文档
 
 1. [Pug中文文档](https://pug.bootcss.com/api/getting-started.html)

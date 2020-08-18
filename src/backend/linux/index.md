@@ -49,7 +49,7 @@ sudo xset mouse 2.0
 
 然后 ctrl + c 后台运行，然后在上图中的显示区域点击图标，然后选择 preference，进行选择开机自启动设置。
 
-## 参考链接
+## 参考文档
 
 1. [Ubuntu 16.04 安装 VSCode](https://blog.csdn.net/Among12345/article/details/81874117)
 1. [在 ubuntu16.04 环境下建立 git 的 SSH 访问](https://blog.csdn.net/hnlyzxy123/article/details/80268195)

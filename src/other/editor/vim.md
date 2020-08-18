@@ -210,7 +210,7 @@ R #
 
 ## 插件
 
-## 参考链接
+## 参考文档
 
 1. [Ubuntu18.04 下 VIM 安装及配置](https://blog.csdn.net/qq_42138566/article/details/82800451)
 1. [Windows 下 Vim 安装与配置](https://www.chenshaowen.com/blog/vim-installation-and-configuration-on-windows-os.html)

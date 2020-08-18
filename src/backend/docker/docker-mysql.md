@@ -6,6 +6,6 @@
  -->
 # MySQL
 
-## 参考链接
+## 参考文档
 
 1. [使用Docker搭建MySQL服务](https://www.cnblogs.com/sablier/p/11605606.html)

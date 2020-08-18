@@ -178,7 +178,7 @@ npm config set registry=http://registry.npmjs.org
 
 ![publish](../../../assets/images/npm_publish.png)
 
-## 参考文献
+## 参考文档
 
 1. [Node.js 命令行程序开发教程](http://www.ruanyifeng.com/blog/2015/05/command-line-with-node.html)
 1. [一篇文章搞定 Github API 调用 (v3）](https://segmentfault.com/a/1190000015144126?utm_source=tag-newest)

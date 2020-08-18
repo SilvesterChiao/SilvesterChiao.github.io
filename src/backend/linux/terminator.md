@@ -27,7 +27,7 @@ sudo update-alternatives --config x-terminal-emulator
 # 输入Terminator所在序号
 ```
 
-## 参考链接
+## 参考文档
 
 1. [Guake Terminal](http://guake-project.org/)
 1. [Ubuntu 从入门到放弃：安装 oh-my-zsh + guake](https://www.jianshu.com/p/5da3546a8d9e)

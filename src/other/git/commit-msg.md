@@ -97,7 +97,7 @@ conventional-changelog
 - -t, —tag-prefix  读取标签时要考虑的标签前缀
 - —commit-path  生成范围为特定目录的变更日志
 
-## 参考链接
+## 参考文档
 
 1. [AngularJS Git Commit Message Conventions](https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y/edit#heading=h.greljkmo14y0)
 1. [Commit message 和 Change log 编写指南](http://www.ruanyifeng.com/blog/2016/01/commit_message_change_log.html)

@@ -13,7 +13,7 @@
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
-## 参考链接
+## 参考文档
 
 1. [全局安装 Vue cli3 和 继续使用 Vue-cli2.x](https://www.cnblogs.com/h2zZhou/p/9881534.html)
 1. [Vue2 全家桶之一：vue-cli（vue 脚手架）超详细教程](https://www.jianshu.com/p/32beaca25c0d)
