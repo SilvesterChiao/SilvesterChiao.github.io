@@ -2,9 +2,9 @@
 
 ## 编辑器/IDE
 
-- [Emmet](editor/emmet.md)
-- [Vim/gVim](editor/vim.md)
 - [Visual Studio Code](editor/vscode.md)
+- [Vim/gVim](editor/vim.md)
+- [Emmet](editor/emmet.md)
 - Sublime Text
 - Atom
 - Webstorm
@@ -39,7 +39,8 @@
 
 - [Git](git/index.md)
 - Ruby
-- MongoDB
+- Nodejs
+- MongoDB 数据库
 - VMware
 - IETester
 - 微信开发者工具

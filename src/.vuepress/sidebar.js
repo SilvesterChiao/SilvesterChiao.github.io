@@ -2,7 +2,7 @@
  * @Author: SilvesterChiao
  * @Date: 2020-03-31 22:02:32
  * @LastEditors: SilvesterChiao
- * @LastEditTime: 2020-08-11 18:19:33
+ * @LastEditTime: 2020-09-25 10:48:18
  */
 module.exports = {
   sidebar: {
@@ -30,6 +30,7 @@ module.exports = {
         collapsable: false,
         children: [
           '/basic/algorithm/',
+          '/basic/algorithm/leetcode',
         ],
       },
       {

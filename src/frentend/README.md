@@ -10,8 +10,8 @@
   - [BOM 浏览器对象模型](js/bom.md)
   - [standard.js](js/standard.md)
   - [ES6 学习笔记](js/es6/index.md)
-- jQuery
-- Sass/Less
+- [jQuery](jquery.md)
+- [Sass](css/sass.md)/Less
 
 ## UI
 
@@ -35,6 +35,7 @@
 - moment
 - lodash
 - axios
+- [animate.css](/css/animate.md)
 
 ## 前端架构
 
