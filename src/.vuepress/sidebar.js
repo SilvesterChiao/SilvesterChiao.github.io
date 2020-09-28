@@ -2,7 +2,7 @@
  * @Author: SilvesterChiao
  * @Date: 2020-03-31 22:02:32
  * @LastEditors: SilvesterChiao
- * @LastEditTime: 2020-09-25 10:48:18
+ * @LastEditTime: 2020-09-27 13:52:48
  */
 module.exports = {
   sidebar: {
@@ -138,7 +138,7 @@ module.exports = {
           '/backend/docker/image',
           '/backend/docker/command',
           '/backend/docker/compose',
-          '/backend/docker/dockerfile',
+          '/backend/docker/docker-dockerfile',
         ]
       },
       {
