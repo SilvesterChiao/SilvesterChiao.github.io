@@ -1,7 +1,6 @@
 const { sidebar } = require('./sidebar')
 
 module.exports = {
-  base: '/ouroboros/',
   dest: 'docs',
   title: '西尔杂货店',
   description: '跋涉千里向你道别，在最初和最后当雪夜。',
