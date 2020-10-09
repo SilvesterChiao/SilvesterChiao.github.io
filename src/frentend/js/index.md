@@ -1,6 +1,6 @@
 # JavaScript基础
 
-JavaScript 包括三个部分: [EcmaScript](./es6/), [BOM](./bom), [DOM](./dom).
+JavaScript 包括三个部分: EcmaScript([ES5](./es5/), [ES6](./es6/)), [BOM](./bom), [DOM](./dom).
 
 ## 运算符
 
@@ -68,4 +68,3 @@ JavaScript 包括三个部分: [EcmaScript](./es6/), [BOM](./bom), [DOM](./dom).
 - eval
 - decodeURI
 - encodeURI
-- 

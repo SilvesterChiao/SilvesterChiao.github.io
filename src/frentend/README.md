@@ -6,10 +6,10 @@
 - [CSS(3)](css/index.md)
 - JavaScript(ECMAScript)
   - [js 学习笔记](js/es5/index.md)
+  - [ES6 学习笔记](js/es6/index.md)
   - [DOM 文档对象模型](js/dom.md)
   - [BOM 浏览器对象模型](js/bom.md)
   - [standard.js](js/standard.md)
-  - [ES6 学习笔记](js/es6/index.md)
 - [jQuery](jquery.md)
 - [Sass](css/sass.md)/Less
 
