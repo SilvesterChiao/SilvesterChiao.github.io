@@ -2,7 +2,7 @@
  * @Author: SilvesterChiao
  * @Date: 2020-07-03 16:06:48
  * @LastEditors: SilvesterChiao
- * @LastEditTime: 2020-07-03 16:20:26
+ * @LastEditTime: 2020-10-09 16:20:37
 --> 
 
 # 名词
@@ -55,19 +55,36 @@
 
 ## 植物
 
-## 职业
+- [职业(Occupation)](./occupation.md)
+- [人名(Name)](./name.md)
 
 ## 日常
 
-## 人名
-
 ## 关系
+
+- father
+- mother
+- son
+- daughter
 
 ## 地名
 
+- 亚洲
+- 欧洲
+- 非洲
+- 美洲
+- 大洋洲
+- 南极洲
+- 太平洋
+- 印度洋
+- 大西洋
+- 北冰洋
+
+### 国家
+
 ## 宇宙
 
-- 太阳
-- 地球
-- 月亮
-- 星星
+- 太阳: Sun
+- 地球: Eather
+- 月亮: Moon
+- 星星: Star

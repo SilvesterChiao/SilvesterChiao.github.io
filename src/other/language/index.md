@@ -13,5 +13,24 @@
 
 ## 英语
 
-1. [名词](./noun)
-1. [软件开发专业英语](./development)
+- [软件开发专业英语](./development)
+
+- 词性
+  - 实词
+    -  [名词(noun, n)](./noun)
+    -  [代词(pronoun, pron)](./pronoun)
+    -  [形容词(adjective, adj)](./adjective)
+    -  [副词(adverb, adv)](./adverb)
+    -  [动词(verb, v)](./verb)
+    -  [数词(numeral, num)](./numeral)
+  - 虚词
+    - [冠词(article, art)](./article)
+    - [介词(preposition, prep)](./preposition)
+    - [连词(conjunction, conj)](./conjunction)
+    - [感叹词(interjection, interj)](./interjection)
+
+- 词素
+  - 前缀(prefix)
+  - 词根(root)
+  - 后缀(suffix)
+
