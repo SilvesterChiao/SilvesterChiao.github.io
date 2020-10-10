@@ -1,9 +1,6 @@
 # Emmet
 
-> Emmet(前身为 Zen Coding)是一个前端编码工具  
-> [前端开发必备！Emmet 使用手册](https://www.w3cplus.com/tools/emmet-cheat-sheet.html)  
-> [官网](https://www.emmet.io/)  
-> [文档](https://docs.emmet.io/cheat-sheet/)
+> Emmet(前身为 Zen Coding)是一个前端编码工具
 
 ## 语法
 
@@ -204,3 +201,9 @@ btn:b
 btn:r
 btn:s
 ```
+
+## 参考文档
+
+1. [官网](https://www.emmet.io/)
+1. [文档](https://docs.emmet.io/cheat-sheet/)
+1. [前端开发必备！Emmet 使用手册](https://www.w3cplus.com/tools/emmet-cheat-sheet.html)

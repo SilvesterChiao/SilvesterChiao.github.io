@@ -1,9 +1,6 @@
 # 职业(Occupation)
 
 - accountant: 会计
-- teacher
-- student
-- doctor
 - actor: 男演员
 - actress: 女演员
 - analyst: 分析师
@@ -44,3 +41,75 @@
 - dancer: 舞者
 - dealer/financial trader: (财务)交易员
 - decorator/interior designer: (室内)装潢师
+- dentist: 牙医
+- detective: 侦探
+- designer: 设计师
+- dirver: 司机
+  - taxi driver: 计程车司机
+  - bus driver: 公车司机
+  - tramway driver: 轻轨列车司机
+- doctor: 医生
+- economist: 经济学家
+- editor: 编辑
+- electrician: 电工
+- engineer: 工程师
+  - mechanical engineer: 机械工程师
+  - software engineer: 软件工程师
+- entertainer/performer: (艺术)表演家
+- farmer: 农夫
+- fire fighter: 消防员
+- fisherman: 渔夫
+- fitness trainer: 健身教练
+- geographer: 地理学家
+- historian: 历史学家
+- housekeeper: 管家
+- hunter: 猎人
+- illustrator: 插画家
+- inspector: 检查员
+  - ticket inspector: 验票员
+  - tax inspector: 税务稽查员
+- journalist: 记者
+- judge: 法官
+- lawyer: 律师
+- lecturer: 讲师
+- legislator: 立法委员
+- librarian: 图书馆馆员
+- lifeguard: 救生员
+- makeup artist: 化妆师
+- massage therapist: 按摩师
+- mathematician: 数学家
+- model: 模特
+- musician: 音乐家
+- nurse: 护士
+- nutritionist: 营养师
+- painter: 画家; 油漆工
+- pharmacist: 药剂师
+- photographer: 摄影师
+- physician: 医生; 内科医师
+- physicist: 物理学家
+- plumber: 水管工
+- pilot: 飞行员
+- police officer: 警察
+- politician: 政客; 政治家
+- postman: 邮差
+- priest: 神父; 牧师
+- professor: 教授
+- psychologist: 心理学家
+- sailor: 水手
+- sales: 业务员
+- secretary: 秘书
+- security guard: 保全人员
+- scientist: 科学家
+- singer: 歌手
+- soldier: 士兵
+- student: 学生
+- surgeon: 外科医生
+- tailor: 裁缝师
+- teacher: 老师
+- technician: 技师
+- therapist: 治疗师
+- tour guide: 导游
+- veterinarian/vet: 兽医
+- volunteer: 志工
+- waiter/waitress: 男服务生/女服务生
+- zookeeper: 动物园管理员
