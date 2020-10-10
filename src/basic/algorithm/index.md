@@ -67,3 +67,11 @@ function gcd(p, q) {
 
 1. [1.0 十大经典排序算法](https://www.runoob.com/w3cnote/ten-sorting-algorithm.html)
 1. [[Data Structure & Algorithm] 七大查找算法](https://www.cnblogs.com/maybe2030/p/4715035.html)
+1. [算法精解：约瑟夫（Josephus）问题](https://zhuanlan.zhihu.com/p/35487124)
+1. [算法从入门到“放弃”（1）- 什么是算法？](https://zhuanlan.zhihu.com/p/40151536)
+1. [约瑟夫问题](https://zh.wikipedia.org/wiki/%E7%BA%A6%E7%91%9F%E5%A4%AB%E6%96%AF%E9%97%AE%E9%A2%98)
+1. [约瑟夫环——公式法（递推公式）](https://blog.csdn.net/u011500062/article/details/72855826)
+1. [五分钟学算法](https://www.cxyxiaowu.com/)
+1. [程序员必须掌握哪些算法？](https://www.zhihu.com/question/23148377)
+1. [常见数据结构与算法整理总结（下）](https://www.jianshu.com/p/42f81846c0fb)
+1. [【搞定算法】常见算法题分类总览](https://blog.csdn.net/pcwl1206/article/details/97390314)
