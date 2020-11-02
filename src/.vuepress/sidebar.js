@@ -2,7 +2,7 @@
  * @Author: SilvesterChiao
  * @Date: 2020-03-31 22:02:32
  * @LastEditors: SilvesterChiao
- * @LastEditTime: 2020-11-02 14:55:53
+ * @LastEditTime: 2020-11-02 21:07:38
  */
 module.exports = {
   sidebar: {
@@ -78,15 +78,17 @@ module.exports = {
         collapsable: false, // 可选的, 默认值是 true,
         children: [
           '',
+          '/frentend/js/es5/datatypes',
+          '/frentend/js/es5/operators',
+          '/frentend/js/es5/expressions',
+          '/frentend/js/es5/function',
           '/frentend/js/es5/scope',
-          '/frentend/js/es5/sfd',
           '/frentend/js/es5/string',
           '/frentend/js/es5/number',
           '/frentend/js/es5/array',
-          '/frentend/js/es5/function',
           '/frentend/js/es5/object',
-          '/frentend/js/es5/date',
           '/frentend/js/es5/prototype',
+          '/frentend/js/es5/date',
           '/frentend/js/es5/regex',
           '/frentend/js/jquery',
           '/frentend/js/standard',
