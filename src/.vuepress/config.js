@@ -27,10 +27,22 @@ module.exports = {
     editLinks: true,
     editLinkText: '在 GitHub 上编辑此页',
     lastUpdated: '上次更新',
+    activeHeaderLinks: false,
     nav: [
       { text: '计算机', link: '/basic/' },
-      { text: '前端', link: '/frentend/' },
-      { text: '后端', link: '/backend/' },
+      {
+        text: '前端',
+        ariaLabel: '前端开发',
+        items: [
+          { text: '前端开发', link: '/frentend/other/' },
+          { text: 'HTML', link: '/frentend/html/' },
+          { text: 'CSS', link: '/frentend/css/' },
+          { text: 'JavaScript', link: '/frentend/js/' },
+          { text: 'React 技术栈', link: '/frentend/react/' },
+          { text: 'Vue 技术栈', link: '/frentend/vue/' },
+        ]
+      },
+      { text: '后端', link: '/backend/nodejs/' },
       { text: '其他', link: '/other/' },
     ],
     sidebarDepth: 0,

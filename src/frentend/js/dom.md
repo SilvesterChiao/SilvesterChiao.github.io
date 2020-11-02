@@ -1,10 +1,3 @@
-<!--
- * @Author: SilvesterChiao
- * @Date: 2020-07-02 14:49:35
- * @LastEditors: SilvesterChiao
- * @LastEditTime: 2020-07-03 11:07:36
---> 
-
 # DOM (文档对象模型)
 
 DOM 是 Document Object Model 的缩写, 定义了访问和操作 HTML 和 XML 文档的标准方法, 是 W3C 标准之一。  

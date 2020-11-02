@@ -2,7 +2,7 @@
  * @Author: SilvesterChiao
  * @Date: 2020-03-31 22:02:32
  * @LastEditors: SilvesterChiao
- * @LastEditTime: 2020-09-27 13:52:48
+ * @LastEditTime: 2020-11-02 14:55:53
  */
 module.exports = {
   sidebar: {
@@ -41,7 +41,7 @@ module.exports = {
         ],
       }
     ],
-    '/frentend/':  [
+    '/frentend/other/': [
       {
         title: '前端开发',   // 必要的
         collapsable: false, // 可选的, 默认值是 true,
@@ -51,47 +51,133 @@ module.exports = {
           '/frentend/other/web',
         ]
       },
+    ],
+    '/frentend/html/': [
       {
         title: 'HTML',   // 必要的
         collapsable: false, // 可选的, 默认值是 true,
         children: [
-          '/frentend/html/',
+          '',
         ]
       },
+    ],
+    '/frentend/css/': [
       {
         title: 'CSS',   // 必要的
         collapsable: false, // 可选的, 默认值是 true,
         children: [
-          '/frentend/css/',
+          '',
+          '/frentend/css/sass',
+          '/frentend/css/animate',
         ]
       },
+    ],
+    '/frentend/js/': [
       {
         title: 'JavaScript',   // 必要的
         collapsable: false, // 可选的, 默认值是 true,
         children: [
-          '/frentend/js/',
-          '/frentend/js/es5/',
-          '/frentend/js/es6/',
+          '',
+          '/frentend/js/es5/scope',
+          '/frentend/js/es5/sfd',
+          '/frentend/js/es5/string',
+          '/frentend/js/es5/number',
+          '/frentend/js/es5/array',
+          '/frentend/js/es5/function',
+          '/frentend/js/es5/object',
+          '/frentend/js/es5/date',
+          '/frentend/js/es5/prototype',
+          '/frentend/js/es5/regex',
+          '/frentend/js/jquery',
           '/frentend/js/standard',
         ]
       },
       {
-        title: 'Vue',   // 必要的
+        title: 'DOM',   // 必要的
         collapsable: false, // 可选的, 默认值是 true,
         children: [
-          '/frentend/vue/',
-          '/frentend/vue/vue',
-          '/frentend/vue/router',
-          '/frentend/vue/vuex',
-          '/frentend/vue/vuepress',
-          '/frentend/vue/axios',
+          '/frentend/js/dom',
         ]
       },
+      {
+        title: 'BOM',   // 必要的
+        collapsable: false, // 可选的, 默认值是 true,
+        children: [
+          '/frentend/js/bom',
+        ]
+      },
+      {
+        title: 'ES6',   // 必要的
+        collapsable: false, // 可选的, 默认值是 true,
+        children: [
+          '/frentend/js/es6/let',
+          '/frentend/js/es6/destructuring',
+          '/frentend/js/es6/string',
+          '/frentend/js/es6/regex',
+          '/frentend/js/es6/number',
+          '/frentend/js/es6/function',
+          '/frentend/js/es6/array',
+          '/frentend/js/es6/object',
+          '/frentend/js/es6/symbol',
+          '/frentend/js/es6/set',
+          '/frentend/js/es6/proxy',
+          '/frentend/js/es6/reflect',
+          '/frentend/js/es6/promise',
+          '/frentend/js/es6/iterator',
+          '/frentend/js/es6/generator',
+          '/frentend/js/es6/async',
+          '/frentend/js/es6/class',
+          '/frentend/js/es6/module',
+          '/frentend/js/es6/arraybuffer',
+          '/frentend/js/es6/decorator',
+        ]
+      },
+    ],
+    '/frentend/react/': [
       {
         title: 'React',   // 必要的
         collapsable: false, // 可选的, 默认值是 true,
         children: [
-          '/frentend/react/',
+          '',
+        ]
+      },
+    ],
+    '/frentend/vue/': [
+      {
+        title: 'Vue(前端 MV\*框架)',   // 必要的
+        collapsable: false, // 可选的, 默认值是 true,
+        children: [
+          '',
+          '/frentend/vue/syntax',
+          '/frentend/vue/computed',
+          '/frentend/vue/class-and-style',
+          '/frentend/vue/conditional',
+          '/frentend/vue/list',
+          '/frentend/vue/events',
+          '/frentend/vue/forms',
+          '/frentend/vue/components',
+          '/frentend/vue/vuepress',
+        ]
+      },
+      {
+        title: 'vue-router(前端单页面路由)',   // 必要的
+        collapsable: false, // 可选的, 默认值是 true,
+        children: [
+          '/frentend/vue/router',
+        ]
+      },
+      {
+        title: 'vuex(vue 组件状态管理器)',   // 必要的
+        collapsable: false, // 可选的, 默认值是 true,
+        children: [
+          '/frentend/vue/vuex',
+        ]
+      },
+      {
+        title: 'axios(ajax 库)',   // 必要的
+        collapsable: false, // 可选的, 默认值是 true,
+        children: [
+          '/frentend/vue/axios',
         ]
       },
     ],
@@ -100,7 +186,7 @@ module.exports = {
         title: 'Nodejs',   // 必要的
         collapsable: false, // 可选的, 默认值是 true,
         children: [
-          '',
+          '/backend/nodejs/',
           '/backend/nodejs/readline',
           '/backend/nodejs/process',
           '/backend/nodejs/cli',
