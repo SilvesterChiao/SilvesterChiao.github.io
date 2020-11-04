@@ -249,3 +249,11 @@ Events
 - vrdisplayconnect
 - vrdisplaydisconnect
 - vrdisplaypresentchange
+
+## location
+
+## navigator
+
+## screen
+
+## history

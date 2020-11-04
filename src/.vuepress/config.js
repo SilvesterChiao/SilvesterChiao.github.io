@@ -29,7 +29,18 @@ module.exports = {
     lastUpdated: '上次更新',
     activeHeaderLinks: false,
     nav: [
-      { text: '计算机', link: '/basic/' },
+      {
+        text: '计算机',
+        ariaLabel: '计算机',
+        items: [
+          { text: '计算机基础', link: '/basic/other/' },
+          { text: '面向对象', link: '/basic/oo/' },
+          { text: '算法', link: '/basic/algorithm/' },
+          { text: '数据结构', link: '/basic/structure/' },
+          { text: '设计模式', link: '/basic/pattern/' },
+          { text: 'HTTP', link: '/basic/http/' },
+        ]
+      },
       {
         text: '前端',
         ariaLabel: '前端开发',

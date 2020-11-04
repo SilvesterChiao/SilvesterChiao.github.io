@@ -2,44 +2,116 @@
  * @Author: SilvesterChiao
  * @Date: 2020-03-31 22:02:32
  * @LastEditors: SilvesterChiao
- * @LastEditTime: 2020-11-02 21:07:38
+ * @LastEditTime: 2020-11-04 15:58:35
  */
 module.exports = {
   sidebar: {
-    '/basic/':  [
+    '/basic/other/': [
       {
         title: '计算机基础',   // 必要的
         collapsable: false, // 可选的, 默认值是 true,
-        // sidebarDepth: 0,    // 可选的, 默认值是 1
+        sidebarDepth: 1,
         children: [
-          '', // 对应 /basic 下 README.md 文件
-          '/basic/audition', // 对应 /basic下 audition.md 文件
-          '/basic/http/', // 对应 /basic/http 下 index.md 文件
-          '/basic/oo/',
+          '',
+          '/basic/other/audition',
+          '/basic/other/code-refactoring',
+          '/basic/other/software-architecture',
+        ]
+      },
+    ],
+    '/basic/oo/': [
+      {
+        title: '面向对象',   // 必要的
+        collapsable: false, // 可选的, 默认值是 true,
+        children: [
+          '',
+        ]
+      },
+    ],
+    '/basic/algorithm/': [
+      {
+        title: '算法',   // 必要的
+        collapsable: false, // 可选的, 默认值是 true,
+        children: [
+          '',
+          '/basic/algorithm/leetcode',
+          '/basic/algorithm/fuzadu',
+          '/basic/algorithm/tanxin',
         ]
       },
       {
-        title: '数据结构',
-        collapsable: false,
+        title: '五大常用算法',
+        collapsable: false, // 可选的, 默认值是 true,
         children: [
-          '/basic/structure/',
+          '/basic/algorithm/divide-and-conquer',
+          '/basic/algorithm/dynamic-programming',
+          '/basic/algorithm/greedy',
+          '/basic/algorithm/back-tracking',
+          '/basic/algorithm/branch-and-bound',
         ],
       },
       {
-        title: '算法',
-        collapsable: false,
+        title: '排序算法',
+        collapsable: false, // 可选的, 默认值是 true,
         children: [
-          '/basic/algorithm/',
-          '/basic/algorithm/leetcode',
+          '/basic/algorithm/sort/bubble',
+          '/basic/algorithm/sort/insertion',
+          '/basic/algorithm/sort/quick',
+          '/basic/algorithm/sort/merge',
+          '/basic/algorithm/sort/selection',
+          '/basic/algorithm/sort/shell',
+          '/basic/algorithm/sort/heap',
+          '/basic/algorithm/sort/bucket',
+          '/basic/algorithm/sort/radix',
+          '/basic/algorithm/sort/counting',
         ],
       },
       {
-        title: '设计模式',
-        collapsable: false,
+        title: '查找算法',
+        collapsable: false, // 可选的, 默认值是 true,
         children: [
-          '/basic/pattern/',
+          '/basic/algorithm/search/sequence',
+          '/basic/algorithm/search/binary',
+          '/basic/algorithm/search/insertion',
+          '/basic/algorithm/search/fibonacci',
+          '/basic/algorithm/search/tree',
+          '/basic/algorithm/search/block',
+          '/basic/algorithm/search/hash',
         ],
       }
+    ],
+    '/basic/structure/': [
+      {
+        title: '数据结构',   // 必要的
+        collapsable: false, // 可选的, 默认值是 true,
+        children: [
+          '',
+          '/basic/structure/array',
+          '/basic/structure/stack',
+          '/basic/structure/queue',
+          '/basic/structure/linked-list',
+          '/basic/structure/hash-table',
+          '/basic/structure/tree',
+        ]
+      },
+    ],
+    '/basic/pattern/': [
+      {
+        title: '设计模式',   // 必要的
+        collapsable: false, // 可选的, 默认值是 true,
+        children: [
+          '',
+        ]
+      },
+    ],
+    '/basic/http/': [
+      {
+        title: 'HTTP',   // 必要的
+        collapsable: false, // 可选的, 默认值是 true,
+        children: [
+          '',
+        ]
+      },
     ],
     '/frentend/other/': [
       {
@@ -249,6 +321,7 @@ module.exports = {
           '/other/markdown',
           '/other/git/',
           '/other/language/',
+          '/other/acg',
         ]
       },
       {

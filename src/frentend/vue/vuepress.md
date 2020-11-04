@@ -49,7 +49,7 @@ vuepress build .
 
 ### emoji
 
-vuepress支持`:yum:`的格式插入emoji表情，快用 emoji 让你的文章更生动吧 :yum:
+vuepress支持`:yum:`的格式插入emoji表情，快用 emoji 让你的文章更生动吧 :yum: :rage:
 
 [vuepress 支持的 emoji 列表](https://www.webfx.com/tools/emoji-cheat-sheet/)
 

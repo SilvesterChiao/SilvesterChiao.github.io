@@ -2,32 +2,37 @@
 
 JavaScript 包括三个部分: EcmaScript([ES5](./es5/), [ES6](./es6/)), [BOM](./bom), [DOM](./dom).
 
-## 运算符
+## 语法
 
-## 数据类型
+- 区分大小写
+- 标识符
 
-- null
-- undefined
-- Number
-- String
-- Boolean
-- Array
-- Object
-
-## 运算符
+## 操作符
 
 - typeof
 - instanceof
 - delete
 - in
 - debugger
-- break
-- continue
 - new
 - super
 - this
 - void
 - yield
+
+## 语句
+
+- if
+- do-wile
+- while
+- for
+- for-in
+- label
+- break 和 continue
+- with
+- switch
+
+## 作用域
 
 ## 内置对象
 
@@ -68,3 +73,56 @@ JavaScript 包括三个部分: EcmaScript([ES5](./es5/), [ES6](./es6/)), [BOM](.
 - eval
 - decodeURI
 - encodeURI
+
+## 常见问题
+
+1. 值传递和引用传递的区别
+
+2. 闭包的概念和应用
+
+3. 数据类型有哪些
+
+4. 判断数组的方法
+
+5. this
+
+6. 原型和原型链
+
+7. Promise
+
+8. 数组扁平化
+
+9. 创建对象和继承的方法, ES5和ES6中的区别
+
+10. 浅拷贝和深拷贝
+
+11. 函数的防抖和截流
+
+12. 如何判断对象的实例
+
+13. 优化有哪些方案
+
+14. 事件循环机制
+
+15. new 操作符
+
+1. 创建一个新的对象
+1. this 指向这个对象
+1. 执行函数
+1. 返回 this
+
+16. ES6 有哪些新特性
+
+- let/const
+- 解构赋值
+- 数组的扩展运算符, 新的数组方法 Array.from, Array.of, copyWithin, find, findIndex, fill, entries, keys, values, includes, flat, flatMap
+- 对象字面量简写, 对象的新增方法
+- Iterator, for...of
+- 箭头函数, 参数的默认值, rest 参数
+- Promise
+- 模块化
+- Symbol
+- Class
+- Decorator
+
+17. 数组和对象的遍历方法
