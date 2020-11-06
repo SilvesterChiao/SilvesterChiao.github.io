@@ -15,8 +15,8 @@ function quickSort(arr, left, right) {
 
     if (left < right) {
         partitionIndex = partition(arr, left, right);
-        quickSort(arr, left, partitionIndex-1);
-        quickSort(arr, partitionIndex+1, right);
+        quickSort(arr, left, partitionIndex - 1);
+        quickSort(arr, partitionIndex + 1, right);
     }
     return arr;
 }
@@ -24,30 +24,31 @@ function quickSort(arr, left, right) {
 function partition(arr, left ,right) {     // 分区操作
     var pivot = left,                      // 设定基准值（pivot）
         index = pivot + 1;
-    for (var i = index; i <= right; i++) {
+    for (var i = index; i <= right; i ++) {
         if (arr[i] < arr[pivot]) {
             swap(arr, i, index);
-            index++;
+            index ++;
         }        
     }
     swap(arr, pivot, index - 1);
-    return index-1;
+    return index - 1;
 }
 
 function swap(arr, i, j) {
-    var temp = arr[i];
-    arr[i] = arr[j];
-    arr[j] = temp;
+  var temp = arr[i];
+  arr[i] = arr[j];
+  arr[j] = temp;
 }
+
 function partition2(arr, low, high) {
   let pivot = arr[low];
   while (low < high) {
     while (low < high && arr[high] > pivot) {
-      --high;
+      -- high;
     }
     arr[low] = arr[high];
     while (low < high && arr[low] <= pivot) {
-      ++low;
+      ++ low;
     }
     arr[high] = arr[low];
   }
@@ -66,3 +67,11 @@ function quickSort2(arr, low, high) {
 ```
 
 ## 复杂度
+
+空间复杂度: O(logn)
+
+平均时间复杂度: O(nlogn)
+
+最好情况: O(nlogn)
+
+最坏情况: O(n^2)

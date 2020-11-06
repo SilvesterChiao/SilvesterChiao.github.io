@@ -10,11 +10,11 @@
 function bubbleSort(arr) {
     let result = Array.from(arr);
     let len = result.length;
-    for (let i = 0; i < len - 1; i++) {
-        for (let j = 0; j < len - 1 - i; j++) {
-            if (result[j] > result[j+1]) {
-                let temp = result[j+1];
-                result[j+1] = result[j];
+    for (let i = 0; i < len - 1; i ++) {
+        for (let j = 0; j < len - 1 - i; j ++) {
+            if (result[j] > result[j + 1]) {
+                let temp = result[j + 1];
+                result[j + 1] = result[j];
                 result[j] = temp;
             }
         }
@@ -27,4 +27,8 @@ function bubbleSort(arr) {
 
 空间复杂度: O(1)
 
-时间复杂度: O(n^2)
+平均时间复杂度: O(n^2)
+
+最好情况: O(n)
+
+最坏情况: O(n^2)
