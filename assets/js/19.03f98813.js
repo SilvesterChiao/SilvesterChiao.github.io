@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[19],{381:function(e,t,n){"use strict";n.r(t);console.log("tree");var s={},i=n(25),l=Object(i.a)(s,(function(){var e=this.$createElement;this._self._c;return this._m(0)}),[function(){var e=this.$createElement,t=this._self._c||e;return t("div",[t("h3",[this._v("树")])])}],!1,null,null,null);t.default=l.exports}}]);
