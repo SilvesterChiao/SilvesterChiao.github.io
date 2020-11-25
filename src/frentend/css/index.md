@@ -4,11 +4,9 @@
 
 伪类, 伪元素
 
-!important > 内联样式
-
 选择器 **从右向左** 解析
 
-优先级: ID > class > 元素选择器 > * > 继承 > 默认
+优先级: !important > 内联样式 > ID > class > 元素选择器 > * > 继承 > 默认
 
 效率:
 
@@ -70,6 +68,12 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input
 - 网格元素
 - 多列容器
 - column-span 为 `all` 的元素
+
+应用
+
+- 自适应两栏布局
+- 清除浮动
+- 防止 margin 重叠
 
 4. 定位
 
@@ -133,7 +137,12 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input
   position: absolute;
   top: 50%;
   left: 50%;
+  /* 2.1 绝对定位 + transform */
   transform: translate(-50%, -50%);
+  /* 2.2 绝对定位 + margin */
+  right: 0;
+  bottom: 0;
+  margin: auto;
 }
 ```
 
@@ -179,11 +188,11 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input
 9. 过度效果
 
 ```css
-.sanjiao {
+.wrapper {
   transition: transform 2s;
-  transition: width 2s, height 3s;
+  /* transition: width 2s, height 3s; */
 }
-.sanjiao:hover {
+.wrapper:hover {
   /* 旋转 */
   transform: rotate(180deg);
   /* 平移 */
@@ -199,14 +208,44 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input
 
 10. REM
 
-11. flex 计算
+html元素上设置 font-size 为 16px, width: 10rem;即表示160px; 通过媒体查询设置不同宽度下的html元素的font-size即可实现自适应
+
+11. flex 布局
+
+容器:
+
+- display: flex;
+- flex-direction: row;
+- flex-wrap: nowrap;
+- flex-flow: row nowrap;
+- justify-content: center;
+- align-items: center;
+- align-content: center;
+
+元素:
+
+- order: 1;
+- flex-grow: 0;
+- flex-shrink: 1;
+- flex-basis: auto;
+- flex: 0 1 auto;
+- align-self: auto;
 
 12. 移动端 1px
 
-使用 2px 转成REM
-缩小50%
+利用transform缩小0.5
 
 13. 三角形
+
+```css
+.triangle {
+  width: 0;
+  height: 0;
+  border-top: 20px solid red;
+  border-right: 20px solid transparent;
+  border-left: 20px solid transparent;
+}
+```
 
 14. 属性继承和覆盖
 
@@ -220,8 +259,35 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input
 | border | border-top, border-right, border-bottom, border-left |
 | background | background-color, background-image, background-position, background-size |
 
+不可继承:
+
+- width, height, max-width, max-height, min-width, min-height
+- display
+- text-shadow, text-decoration
+- float, clear
+- content, counter-reset
+- z-index
+- position, top, right, bottom, left
+- margin, padding, border
+- background, background-color, background-image, background-size, background-position
+- outline, outline-style, outline-width, outline-color
+
+可继承
+
+- font, font-family, font-size, font-weight, font-style, font-variant
+- text-indent, text-align, text-shadow, text-transform, word-spacing, letter-spacing, line-height, color, direction
+- visibility
+- border-style
+- list-style, list-style-type, list-style-image, list-style-position
+- cursor
+
 15. 优化
 
+- 省略px
+- 省略小数的正数位0
+- 使用简写属性
+- 首屏关键 CSS 写在 head 标签中
+- 压缩
 - CDN
 - 雪碧图
 
@@ -230,9 +296,11 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input
 17. 单位
 
 - px
-- 百分比
+- em
+- %
 - rem
-- vh
+- vw/vh
+- vmin/vmax
 
 18. CSS3 新特性
 
@@ -255,3 +323,4 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input
 1. [CSS 选择器参考手册](https://www.w3school.com.cn/cssref/css_selectors.asp)
 1. [块格式化上下文](https://developer.mozilla.org/zh-CN/docs/Web/Guide/CSS/Block_formatting_context)
 1. [清除浮动的四种方式及其原理理解](https://juejin.cn/post/6844903504545316877)
+1. [CSS垂直居中的12种实现方式](https://juejin.cn/post/6844903550909153287)

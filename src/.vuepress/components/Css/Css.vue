@@ -11,7 +11,7 @@
       <h3>1. 居中对齐</h3>
       <div class="wrapper">
         <div class="inner">
-
+          <span>inner</span>
         </div>
       </div>
     </div>
@@ -21,7 +21,7 @@
     </div>
     <div class="container">
       <h3>三角形</h3>
-      <div class="sanjiao"></div>
+      <div class="triangle"></div>
       <form action="">
         <output></output>
       </form>
@@ -99,7 +99,7 @@ export default {
   }
 }
 
-.sanjiao {
+.triangle {
   width: 0;
   height: 0;
   border-top: 20px solid red;
@@ -108,7 +108,7 @@ export default {
   transition: transform 0.5s;
 }
 
-.sanjiao:hover {
+.triangle:hover {
   transform: rotate(180deg);
   /* transform: translate(100px, 100px); */
   /* transform: scale(2, 3); */
