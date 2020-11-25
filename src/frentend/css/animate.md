@@ -131,5 +131,5 @@ Vue.use(animate)
 
 ## 相关链接
 
-[ animate github地址](https://github.com/daneden/animate.css)
-[效果演示地址](https://daneden.github.io/animate.css/)
+1. [animate github地址](https://github.com/daneden/animate.css)
+1. [效果演示地址](https://daneden.github.io/animate.css/)

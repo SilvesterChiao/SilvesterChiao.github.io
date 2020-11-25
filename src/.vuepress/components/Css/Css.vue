@@ -2,6 +2,12 @@
   <div>
     <h3>CSS Demo</h3>
     <div class="container">
+      <h3>清除浮动</h3>
+      <div class="outer">
+        <div class="left">1</div>
+        <div class="middle">2</div>
+        <div class="right">3</div>
+      </div>
       <h3>1. 居中对齐</h3>
       <div class="wrapper">
         <div class="inner">
@@ -16,6 +22,9 @@
     <div class="container">
       <h3>三角形</h3>
       <div class="sanjiao"></div>
+      <form action="">
+        <output></output>
+      </form>
     </div>
   </div>
 </template>
@@ -27,6 +36,28 @@ export default {
 </script>
 
 <style>
+.outer {
+  border: 1px solid #ccc;
+  background-color: #fc9;
+}
+.outer::after {
+  clear: both;
+  content: '';
+}
+.outer .left, .outer .middle, .outer .right {
+  width: 80px;
+  height: 80px;
+  float: left;
+}
+.left {
+  background-color: sienna;
+}
+.middle {
+  background-color: tomato;
+}
+.right {
+  background-color: navajowhite;
+}
 .wrapper {
   width: 200px;
   height: 200px;
@@ -50,9 +81,21 @@ export default {
   background-color: red;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
+  .box {
+    background-color: green;
+  }
+}
+
+@media (min-width: 992px) {
   .box {
     background-color: blue;
+  }
+}
+
+@media (min-width: 1200px) {
+  .box {
+    background-color: yellow;
   }
 }
 
