@@ -2,7 +2,7 @@
  * @Author: SilvesterChiao
  * @Date: 2020-03-31 22:02:32
  * @LastEditors: SilvesterChiao
- * @LastEditTime: 2020-11-04 15:58:35
+ * @LastEditTime: 2020-11-26 21:43:14
  */
 module.exports = {
   sidebar: {
@@ -145,6 +145,16 @@ module.exports = {
       },
     ],
     '/frentend/js/': [
+      {
+        title: '面试题',
+        collapsable: false,
+        children: [
+          '/frentend/js/audition-1',
+          '/frentend/js/audition-2',
+          '/frentend/js/audition-3',
+          '/frentend/js/audition-4',
+        ],
+      },
       {
         title: 'JavaScript',   // 必要的
         collapsable: false, // 可选的, 默认值是 true,
