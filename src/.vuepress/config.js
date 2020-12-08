@@ -49,8 +49,6 @@ module.exports = {
           { text: 'HTML', link: '/frentend/html/' },
           { text: 'CSS', link: '/frentend/css/' },
           { text: 'JavaScript', link: '/frentend/js/' },
-          { text: 'React 技术栈', link: '/frentend/react/' },
-          { text: 'Vue 技术栈', link: '/frentend/vue/' },
         ]
       },
       { text: '后端', link: '/backend/nodejs/' },

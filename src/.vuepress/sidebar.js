@@ -2,7 +2,7 @@
  * @Author: SilvesterChiao
  * @Date: 2020-03-31 22:02:32
  * @LastEditors: SilvesterChiao
- * @LastEditTime: 2020-11-26 21:43:14
+ * @LastEditTime: 2020-12-08 15:32:01
  */
 module.exports = {
   sidebar: {
@@ -121,6 +121,7 @@ module.exports = {
           '',
           '/frentend/other/browser',
           '/frentend/other/web',
+          '/frentend/other/axios',
         ]
       },
     ],
@@ -214,54 +215,6 @@ module.exports = {
           '/frentend/js/es6/module',
           '/frentend/js/es6/arraybuffer',
           '/frentend/js/es6/decorator',
-        ]
-      },
-    ],
-    '/frentend/react/': [
-      {
-        title: 'React',   // 必要的
-        collapsable: false, // 可选的, 默认值是 true,
-        children: [
-          '',
-        ]
-      },
-    ],
-    '/frentend/vue/': [
-      {
-        title: 'Vue(前端 MV\*框架)',   // 必要的
-        collapsable: false, // 可选的, 默认值是 true,
-        children: [
-          '',
-          '/frentend/vue/syntax',
-          '/frentend/vue/computed',
-          '/frentend/vue/class-and-style',
-          '/frentend/vue/conditional',
-          '/frentend/vue/list',
-          '/frentend/vue/events',
-          '/frentend/vue/forms',
-          '/frentend/vue/components',
-          '/frentend/vue/vuepress',
-        ]
-      },
-      {
-        title: 'vue-router(前端单页面路由)',   // 必要的
-        collapsable: false, // 可选的, 默认值是 true,
-        children: [
-          '/frentend/vue/router',
-        ]
-      },
-      {
-        title: 'vuex(vue 组件状态管理器)',   // 必要的
-        collapsable: false, // 可选的, 默认值是 true,
-        children: [
-          '/frentend/vue/vuex',
-        ]
-      },
-      {
-        title: 'axios(ajax 库)',   // 必要的
-        collapsable: false, // 可选的, 默认值是 true,
-        children: [
-          '/frentend/vue/axios',
         ]
       },
     ],
