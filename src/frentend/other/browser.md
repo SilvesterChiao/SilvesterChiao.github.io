@@ -1,16 +1,41 @@
 # 浏览器渲染
 
+## 浏览器内核
+
+当前主流浏览器内核有: 
+
+- GUI 渲染引擎线程
+- JS 引擎线程
+- 事件触发线程
+- 定时器触发现线程
+- 异步 HTTP 请求线程
+
+::: tip
+GUI 渲染线程与 JS 引擎线程是互斥的, 因为 JS 引擎线程在执行的过程中可能会发生重绘和回流, 所以 GUI 渲染引擎线程执行时, JS 引擎线程会被挂起
+:::
+
 ## 原理
+
+当浏览器识别为 HTML 文件时, GUI 渲染线程将执行以下过程
+
+1. 解析 HTML 文件, 构建 DOM 树, 与此同时浏览器主进程负责下载 CSS 文件;
+2. CSS 文件下载完成, 解析 CSS 文件, 构建 CSSOM 树, 然后与 DOM 树合并为 RenderObject 树;
+3. 根据 RenderObject 树中的元素及其尺寸、位置进行布局
+4. 绘制
 
 ## event-loop
 
-## 重绘和回流
+## 重绘（Repaint）和回流（Reflow）
+
+当 RenderObject 树需要更新样式属性时, 即发生重绘; 当 RenderObject 树种的元素规则尺寸、布局或显示隐藏等发生变化， 即发生回流
 
 ## 存储技术
 
-1. cookie
-1. localeStorage
-1. sessionStorage
+|  | 特性 | 数据大小 | 过期时间 | 通信 |
+| ---- | ---- | ---- | ---- | ---- |
+| Cookie |  | 4K | 手动设置 | 每次都会携带在 HTTP 头中 |
+| localStorage |  | 5M | 永久有效, 可手动清除, 或者通过代码删除 |  |
+| sessionStorage |  | 5M | 当前会话下有效, 关闭页面或浏览器后被清除 |  |
 
 ## 跨标签通信
 
@@ -20,4 +45,8 @@
 
 ## 参考文档
 
-1. [一次搞定前端“核心主线”——从输入URL到页面展示发生了什么](https://zhuanlan.zhihu.com/p/190320054)
+1. [彻底搞清楚浏览器渲染过程](https://segmentfault.com/a/1190000018342847)
+1. [【干货】十分钟读懂浏览器渲染流程](https://juejin.cn/post/6844903565610188807)
+1. [浏览器缓存看这一篇就够了](https://zhuanlan.zhihu.com/p/60950750)
+1. [彻底理解浏览器的缓存机制](https://juejin.cn/post/6844903593275817998)
+1. [彻底弄懂浏览器缓存策略](https://www.jiqizhixin.com/articles/2020-07-24-12)

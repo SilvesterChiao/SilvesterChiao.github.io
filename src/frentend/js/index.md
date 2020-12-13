@@ -115,14 +115,14 @@ JavaScript 包括三个部分: EcmaScript([ES5](./es5/), [ES6](./es6/)), [BOM](.
 
 - let/const
 - 解构赋值
+- 箭头函数, 参数的默认值, rest 参数
 - 数组的扩展运算符, 新的数组方法 Array.from, Array.of, copyWithin, find, findIndex, fill, entries, keys, values, includes, flat, flatMap
 - 对象字面量简写, 对象的新增方法
-- Iterator, for...of
-- 箭头函数, 参数的默认值, rest 参数
-- Promise
-- 模块化
 - Symbol
+- Promise
+- Iterator, for...of
 - Class
+- 模块化
 - Decorator
 
 17. 数组和对象的遍历方法
