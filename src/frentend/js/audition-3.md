@@ -101,7 +101,7 @@ function _instanceof (leftValue, rightValue) {
 
 9. 生成对象和继承的方法
 
-10. 跨域是如何产生的, 如何解决
+
 
 11. Object 和 Array 的区别
 
@@ -142,7 +142,7 @@ const throttle = (fn, delay) => {
   let flag = true;
   return (...args) => {
     if (!flag) {
-      return
+      return;
     }
     flag = false;
     setTimeout(() => {
@@ -188,7 +188,25 @@ return false;
 
 21. 垃圾回收机制
 
-22. 事件循环
+22. 事件循环, 宏任务和微任务
+
+宏任务: script, I/O, setTimeout, setInterval
+
+微任务: promise, process.nextTick
+
+23. 遍历对象的方法
+
+- for...in
+- Object.keys, Object.values
+- Object.getOwnPropertyNames
+
+24. 遍历数组的方法
+
+- for 循环: 遍历 key, 退出使用 break, continue
+- for...of 循环: 遍历 value, 退出使用 break, continue
+- for...in 循环: 遍历 key, 退出使用 break, continue
+- forEach, map, some, every, filter, reduce, reduceRight, find, findIndex: return
+- keys, values, entries: ES6
 
 ## 参考文档
 
