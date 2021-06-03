@@ -113,3 +113,7 @@
 - volunteer: 志工
 - waiter/waitress: 男服务生/女服务生
 - zookeeper: 动物园管理员
+- 职员
+- 老板
+- 空姐
+- 保姆

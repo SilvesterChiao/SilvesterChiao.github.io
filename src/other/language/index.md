@@ -15,6 +15,8 @@
 
 - [软件开发专业英语](./development)
 
+### 单词
+
 - 词性
   - 实词
     -  [名词(noun, n)](./noun)
@@ -34,3 +36,22 @@
   - 词根(root)
   - 后缀(suffix)
 
+### 缩写
+
+### 语法
+
+- what
+  - what time
+- who
+- why
+- when
+- where
+- how
+
+### 句法
+
+- 主谓宾定状补
+
+### 短语
+
+### 词组
