@@ -1,5 +1,5 @@
 export default [
-    { en: 'nonths', cn: '月份' },
+    { en: 'Months', cn: '月份' },
     { en: 'January', cn: '一月' },
     { en: 'February', cn: '二月' },
     { en: 'March', cn: '三月' },

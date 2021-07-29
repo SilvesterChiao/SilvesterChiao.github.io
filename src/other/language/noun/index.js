@@ -2,29 +2,42 @@ import animals from './animals.js'
 import art from './art.js'
 import beverages from './beverages.js'
 import body from './body.js'
+import buildings from './buildings.js'
+import cars from './cars.js'
 import colors from './colors.js'
 import countries from './countries.js'
 import clothing from './clothing.js'
 import directions from './directions.js'
 import electronics from './electronics.js'
 import foods from './foods.js'
+import fruits from './fruits.js'
+import games from './games.js'
 import home from './home.js'
 import job from './job.js'
 import location from './location.js'
 import math from './math.js'
 import materials from './materials.js'
 import months from './months.js'
+import movies from './movies.js'
 import nature from './nature.js'
 import numbers from './numbers.js'
 import other from './other.js'
 import people from './people.js'
 import seasons from './seasons.js'
 import society from './society.js'
+import space from './space.js'
+import time from './time.js'
 import transportation from './transportation.js'
 import week from './week.js'
 
 export default {
+    buildings,
+    cars,
     countries,
+    fruits,
+    games,
+    movies,
+    space,
     animals, // 动物 2.50
     transportation, // 交通 3.20
     location, // 地点 4.17
@@ -48,7 +61,7 @@ export default {
     numbers, // 数字 28.21
     months, // 月份 30.35
     week, // 一周 31.26
-    // 时期 31.55
+    time, // 时期 31.55
     // 动词 32.47
     // 形容词 38.06
 }
