@@ -94,3 +94,23 @@
     </tr>
   </tbody>
 </table>
+
+- folder: 文件夹
+- extname: 扩展名
+- pattern: 模式
+- option: 选项
+- sync: 异步
+- app: 应用
+- middleware: 中间件
+- router: 路由
+- service: 服务
+- global: 全局
+- config: 配置
+- src:
+- dist:
+- dest:
+- build:
+- dev:
+- development:
+- production:
+- plugin
