@@ -66,4 +66,4 @@ typings/
 # vuepress 构建目录
 docs
 
-.DS_Store
+**/.DS_Store

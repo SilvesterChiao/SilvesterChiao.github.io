@@ -256,8 +256,3 @@
 - 大洋洲
   - 新西兰
   - 澳大利亚
-
-<script>
-  import words from './index.js'
-  console.log(words)
-</script>
