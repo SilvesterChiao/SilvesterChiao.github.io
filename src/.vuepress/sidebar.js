@@ -103,6 +103,46 @@ module.exports = {
           '',
         ]
       },
+      {
+        title: '创建型模式',   // 必要的
+        collapsable: false, // 可选的, 默认值是 true,
+        children: [
+          '/basic/pattern/factory-method',
+          '/basic/pattern/abstract-factory',
+          '/basic/pattern/builder',
+          '/basic/pattern/prototype',
+          '/basic/pattern/singleton',
+        ]
+      },
+      {
+        title: '结构型模式',   // 必要的
+        collapsable: false, // 可选的, 默认值是 true,
+        children: [
+          '/basic/pattern/adapter',
+          '/basic/pattern/bridge',
+          '/basic/pattern/composite',
+          '/basic/pattern/decorator',
+          '/basic/pattern/facade',
+          '/basic/pattern/flyweight',
+          '/basic/pattern/proxy',
+        ]
+      },
+      {
+        title: '行为模式',   // 必要的
+        collapsable: false, // 可选的, 默认值是 true,
+        children: [
+          '/basic/pattern/chain-of-responsibility',
+          '/basic/pattern/command',
+          '/basic/pattern/iterator',
+          '/basic/pattern/mediator',
+          '/basic/pattern/memento',
+          '/basic/pattern/observer',
+          '/basic/pattern/state',
+          '/basic/pattern/strategy',
+          '/basic/pattern/template-method',
+          '/basic/pattern/visitor',
+        ]
+      },
     ],
     '/basic/http/': [
       {
