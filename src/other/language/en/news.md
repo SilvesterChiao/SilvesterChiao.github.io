@@ -1,5 +1,7 @@
 # news
 
+## 单词
+
 -   headline: 头条
 -   more: 更多
 -   local: 本地
@@ -59,6 +61,8 @@
     -   nutrition: 营养
     -   fitness: 健康
 
+## Topics
+
 -   COVID-19: 新冠肺炎
 -   Taliban: 塔利班
 -   coronavirus: 冠状病毒
@@ -69,6 +73,8 @@
 -   Spider-Man: 蜘蛛侠
 -   Avengers: 复仇者
 -   Thanos: 灭霸
+
+## Sources
 
 -   REUTERS: 路透社
 -   afp: 法国新闻社

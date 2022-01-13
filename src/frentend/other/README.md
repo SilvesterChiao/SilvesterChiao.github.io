@@ -35,7 +35,7 @@
 - moment
 - lodash
 - axios
-- [animate.css](/css/animate.md)
+- [animate.css](css/animate.md)
 
 ## 前端架构
 
