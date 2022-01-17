@@ -1,1 +1,0 @@
-# Beyoncé Giselle Knowles-Carter

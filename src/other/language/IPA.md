@@ -1,1 +1,0 @@
-# International Phonetic Alphabet(IPA)
