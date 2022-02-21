@@ -346,6 +346,11 @@ module.exports = {
         title: '编辑器',
         collapsable: false, // 可选的, 默认值是 true,
         children: [
+          '/other/song/ABC phonics song',
+          '/other/song/Because of You',
+          '/other/song/Believer',
+          '/other/song/Burning',
+          '/other/song/East of Eden',
           '/other/editor/vim',
           '/other/editor/emmet',
           '/other/editor/vscode',
