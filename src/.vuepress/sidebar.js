@@ -323,7 +323,6 @@ module.exports = {
           '/other/books',
           '/other/markdown',
           '/other/git/',
-          '/other/language/',
           '/other/acg',
         ]
       },
