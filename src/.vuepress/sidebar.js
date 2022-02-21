@@ -346,6 +346,8 @@ module.exports = {
         title: '编辑器',
         collapsable: false, // 可选的, 默认值是 true,
         children: [
+          '/other/songs/Believer',
+          '/other/songs/Because of You',
           '/other/editor/vim',
           '/other/editor/emmet',
           '/other/editor/vscode',
